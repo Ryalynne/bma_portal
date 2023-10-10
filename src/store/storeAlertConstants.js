@@ -1,0 +1,6 @@
+export const SUCCESS_ALERT = '[ACTION]  Success Alert'
+export const INFO_ALERT = '[ACTION]  Info Alert'
+export const ERROR_ALERT = '[ACTION]  Error Alert'
+export const WARNING_ALERT = '[ACTION]  Warning Alert'
+export const ENCRYPT_DATA = '[ACTION] Encrpt Data'
+export const DECRYPT_DATA = '[ACTION] decrpt Data'

@@ -1,0 +1,10 @@
+.word-spacing{
+    .loader-title {
+        animation: letter-spacing 1.5s infinite alternate;
+    }
+}
+
+@keyframes letter-spacing {
+    from { transform-origin: left; letter-spacing: .2px; }
+    to { letter-spacing: 10px;}
+}

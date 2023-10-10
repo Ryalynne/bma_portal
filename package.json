@@ -1,0 +1,49 @@
+{
+  "name": "student-portal-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve  --port 7070",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.0.4",
+    "@capacitor/cli": "^5.1.0",
+    "@capacitor/core": "^5.1.0",
+    "@popperjs/core": "^2.11.6",
+    "@vueform/slider": "^2.1.7",
+    "apexcharts": "^3.36.3",
+    "axios": "^1.2.6",
+    "bootstrap": "^5.2.3",
+    "core-js": "^3.8.3",
+    "eslint-plugin-promise": "^6.1.1",
+    "idb": "^7.1.1",
+    "jquery": "^3.6.3",
+    "pdfvuer": "^2.0.1",
+    "register-service-worker": "^1.7.2",
+    "sass-loader": "^13.2.0",
+    "smooth-scrollbar": "^8.8.1",
+    "sweetalert2": "^11.4.8",
+    "swiper": "^8.4.6",
+    "vue": "^3.2.13",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.21.3",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-pwa": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "eslint": "^8.37.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-vue": "^9.10.0",
+    "sass": "^1.57.1"
+  }
+}

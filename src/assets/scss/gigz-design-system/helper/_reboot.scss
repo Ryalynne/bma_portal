@@ -1,0 +1,15 @@
+:focus{
+	outline: none;
+}
+
+    // Scroll Css
+	::-webkit-scrollbar { width: 5px; height: 5px; border-radius: 20px; }
+
+	/* Scroll Track */
+	::-webkit-scrollbar-track { background: $body-bg; border-radius: 20px; }
+	
+	/* Scroll Handle */
+	::-webkit-scrollbar-thumb { background: $border-color; border-radius: 20px; transition: all 400ms ease; cursor: pointer; }
+	
+	/* Scroll Handle on hover */
+	::-webkit-scrollbar-thumb:hover { background: tint-color($border-color, 10%); border-radius: 20px;transition: all 400ms ease }

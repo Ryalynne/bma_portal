@@ -1,0 +1,17 @@
+.card {
+    box-shadow: $card-box-shadow;
+    margin-bottom: $grid-gutter-width;
+    .card-header {
+		border-bottom: 1px solid $border-color;
+		.header-title {
+			.card-title {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.card-header {
+    .card-title {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,23 @@
+@media (min-width: 768px) and (max-width: 1300px) { 
+   .iq-services{
+       .iq-contain{
+           flex-direction: column;
+           align-items: start !important;
+           justify-content: start;
+       }
+   }
+ }
+
+ .iq-purchase{
+     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+ }
+ .vertical-line{
+    border-left: 1px solid #eee !important;
+    margin: 0.2rem 0;
+ }
+ @include media-breakpoint-down(sm) {
+    .vertical-line{
+    border-top: 1px solid #eee !important;
+    margin: 0 0.2rem;
+    }
+ }

@@ -1,0 +1,307 @@
+  .auth-shap{
+    .rect1{
+        position: absolute;
+        top:0rem;
+        }
+        .rect2{
+            position: absolute;
+            top: 0rem;
+            left: 50%;
+        }
+        .rect3{
+            position: absolute;
+            top: 0rem;
+            right: 1rem;
+        }
+        .rect4{
+            position: absolute;
+            top: 28rem;
+            right: 0rem;
+        }
+        .rect5{
+            position: absolute;
+            left: 0rem;
+            top: 37.5rem;
+        }
+        .rect6{
+            position: absolute;
+            right: 30%;
+            top: 40rem;
+        }
+        .rect7{
+            position: absolute;
+            right: 0%;
+            top: 40rem;
+        }
+        .rect8{
+            position: absolute;
+            top: 42rem;
+            left: 43%;
+            z-index: -1;
+            
+        }
+        .rect9{
+            position: absolute;
+            right: 199px;
+            top: 407px;
+        }
+        .rect10{
+            position: absolute;
+            right: -356px;
+            top: 418px;
+        }
+        .rect11{
+            position: absolute;
+            right: -217px;
+            top: 536px;
+        }
+        .rect12{
+            position: absolute;
+            right: 321px;
+            top: 624px;
+        }
+        .rect13{
+            position: absolute;
+            right: 410px;
+            top: 853px;
+        }
+        .rect14{
+            position: absolute;
+            right: -195px;
+            top: 1017px;
+        }
+  }  
+  .error-shap{
+    .rect1{
+        position: absolute;
+        top:6rem;
+        }
+        .rect2{
+            position: absolute;
+            top: 4rem;
+            left: 50%;
+        }
+        .rect3{
+            position: absolute;
+            top: 8rem;
+            right: 1rem;
+        }
+        .rect4{
+            position: absolute;
+            top: 32rem;
+            right: 2rem;
+        }
+        .rect5{
+            position: absolute;
+            left: 3rem;
+            top: 37rem;
+        }
+        .rect6{
+            position: absolute;
+            right: 30%;
+            top: 37rem;
+        }
+        .rect7{
+            position: absolute;
+            right: 3%;
+            top: 40rem;
+        }
+        .rect8{
+            position: absolute;
+            top: 39rem;
+            left: 43%;
+            z-index: -1;
+            
+        }
+    // .rect4 {
+    //     position: absolute;
+    //     top: 22rem;
+    //     right: 0rem;
+    // }
+    //  .rect5 {
+    //     position: absolute;
+    //     left: 0rem;
+    //     top: 23.5rem;
+    // }
+    //  .rect6 {
+    //     position: absolute;
+    //     right: 43%;
+    //     top: 27rem;
+    // }
+    // .rect7 {
+    //     position: absolute;
+    //     right: 0%;
+    //     top: 11rem;
+    // }
+    //  .rect8 {
+    //     position: absolute;
+    //     top: 17rem;
+    //     left: 43%;
+    //     z-index: -1;
+    // }
+  }
+  .maintenaance-shap{
+    .rect1{
+        position: absolute;
+        top:3rem;
+        }
+        .rect2{
+            position: absolute;
+            top: 6rem;
+            left: 50%;
+        }
+        .rect3{
+            position: absolute;
+            top: 4rem;
+            right: 1rem;
+        }
+        .rect4{
+            position: absolute;
+            top: 26rem;
+            right: 0rem;
+        }
+        .rect5{
+            position: absolute;
+            left: 0rem;
+            top: 25rem;
+        }
+        .rect6{
+            position: absolute;
+            right: 30%;
+            top: 46rem;
+        }
+        .rect7{
+            position: absolute;
+            right: 0%;
+            top: 47rem;
+        }
+        .rect8{
+            position: absolute;
+            top: 57rem;
+            left: 0%;
+            z-index: -1;
+            
+        }
+  }
+
+  @media (min-width: 576px) { 
+    .auth-shap {
+        .rect1 {
+            position: absolute;
+            top: 0rem;
+        }
+        .rect2 {
+            position: absolute;
+            top: 1rem;
+        }
+        .rect3 {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+        }
+        .rect8 {
+            position: absolute;
+            top: 40rem;
+            left: 43%;
+        }
+        .rect7 {
+            position: absolute;
+            right: 0%;
+            top: 40rem;
+        }
+    }
+    
+   }
+    
+  @media (min-width: 768px) and (max-width: 1199.98px) { 
+    .error-shap{
+        .rect1{
+            position: absolute;
+            top: 3rem;
+            }
+        .rect2{
+            position: absolute;
+            top: 15rem;
+            left: 43%;
+        } 
+        .rect3 {
+            position: absolute;
+            top: 0rem;
+            right: 1rem;
+        }
+        .rect5 {
+            position: absolute;
+            left: 2rem;
+            top: 4rem;
+        }
+        .rect8 {
+            position: absolute;
+            top: 70rem;
+            left:43%;
+        }
+        .rect4 {
+            position: absolute;
+            top: 20rem;
+            right: 5rem;
+        }
+        .rect7 {
+            position: absolute;
+            top: 16rem;
+        }
+        .rect6{
+            position: absolute;
+            right: 47%;
+            top: 22rem;
+        }
+      .rect8 {
+            position: absolute;
+            top: 20rem;
+            left: 10%;
+        }
+    }
+    .maintenaance-shap{
+        .rect1{
+            position: absolute;
+            top:3rem;
+            }
+            .rect2{
+                position: absolute;
+                top: 6rem;
+                left: 50%;
+            }
+            .rect3{
+                position: absolute;
+                top: 4rem;
+                right: 1rem;
+            }
+            .rect4{
+                position: absolute;
+                top: 22rem;
+                right: 0rem;
+            }
+            .rect5{
+                position: absolute;
+                left: 0rem;
+                top: 25rem;
+            }
+            .rect6{
+                position: absolute;
+                right: 32%;
+                top: 17rem;
+            }
+            .rect7{
+                position: absolute;
+                right: 20%;
+                top: 30rem;
+            }
+            .rect8{
+                position: absolute;
+                top: 29rem;
+                left: 37%;
+                z-index: -1;
+                
+            }
+      }
+   }
+ 
+ 

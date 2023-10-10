@@ -1,0 +1,25 @@
+/*!
+* Version: 1.0.0
+* Template: GIGZ
+* Author: iqonic.design
+* Design and Developed by: iqonic.design
+* NOTE: This file contains the styling for Template.
+*
+*/
+
+// Configuration
+@import "./bootstrap/functions";
+// Variables
+@import "./gigz-design-system/variable";
+@import "./gigz-design-system/variables/index";
+@import "./bootstrap/variables";
+
+@import "./bootstrap/mixins";
+
+// Gigz Design System Mixin And Helper
+@import "./gigz-design-system/helper/functions";
+@import "./gigz-design-system/helper/mixins";
+@import "./gigz-design-system/helper/reboot";
+
+@import "./custom/auth/authentication";
+@import "./custom/pricing/pricing";

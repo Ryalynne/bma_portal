@@ -1,0 +1,49 @@
+.loader {
+	background-color: $body-bg;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	place-content: center;
+	overflow: hidden !important;
+	right: 0px;
+	z-index: 1250;
+    .loader-body{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.animate__animated {
+    animation-duration: 1s;
+    animation-duration: 1;
+    animation-fill-mode: both;
+}
+
+.animate__fadeIn {
+    animation-name: fadeIn;
+}
+.animate__fadeOut {
+    animation-name: fadeOut;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

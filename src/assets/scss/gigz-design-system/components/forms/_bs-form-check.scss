@@ -1,0 +1,67 @@
+.form-check-input {
+    transition: all 300ms ease;
+    &:checked{
+        transition: all 300ms ease;
+        &[type="checkbox"] {
+            box-shadow: $component-active-shadow;
+        }
+        &[type="radio"] {
+            box-shadow: $component-active-shadow;
+        }
+    }
+}
+.form-switch {
+    .form-check-input {
+        padding: $form-switch-size; 
+        background-color: $gray-200;
+        border-color: $gray-200;
+        transition: all 300ms ease;
+        &:checked{
+            background-color: tint-color($primary, 70%);
+            border-color: tint-color($primary, 70%);
+            transition: all 300ms ease;
+        }
+    }
+}
+.input-group-text, .form-control{
+    border-color: #f0f0f0;
+}
+.form-control{
+    &:hover{
+        border-color: #f0f0f0;
+    }
+    &:active{
+        border-color: #f0f0f0;
+    }
+}
+.search-input1 {
+    width: auto;
+    &.input-group {
+        .input-group-text {
+            padding-right: 2px;
+            border-right: 0;
+            background: transparent;
+        }
+        .form-control {
+            background: transparent;
+            &:focus {
+                box-shadow: unset;
+                border-color: $input-border-color;
+            }
+        }
+        &:focus-within {
+            .input-group-text , .form-control{
+                border-color: $input-focus-border-color;
+            }
+           
+        }
+    }
+}
+
+
+@include media-breakpoint-up(md){
+    .input-group{
+        width: 50%;
+        height: 50%;
+    }
+}

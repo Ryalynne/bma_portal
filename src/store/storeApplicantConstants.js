@@ -1,0 +1,1 @@
+export const GET_APPLICANT_DETAILS = '[ACTION]  Success Alert'
