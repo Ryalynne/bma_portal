@@ -15,7 +15,6 @@
 
             The Academy has its accreditation with CHED-MARINA for BSMT and BSMARE Program and certified by ISO 9001:2015
             accrediting bodies.</p>
-
         </div>
         <div class="card mt-3">
           <center><img src="@/assets/resources/image/bma-logo-1.png" alt="image" class="img-fluid rounded-circle me-4">
@@ -70,4 +69,4 @@
       </div>
     </div>
   </div>
-</div></template>
+</template>
