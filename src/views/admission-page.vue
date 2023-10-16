@@ -36,24 +36,6 @@
                         <li> Barangay Clearance</li>
                         <li> Height Requirements: at least 5'4"</li>
                     </ul>
-                    <h4 class="fw-bolder">Have Questions?</h4>
-                    <p>Please feel free to call or email us,
-
-                        or use our contact form to get in touch with us.
-
-                        <br>We look forward to hearing from you!
-                    </p>
-                    <h4 class="fw-bolder">Call Us</h4>
-                    <p>(044) 766 1263</p>
-                    <h4 class="fw-bolder">Send Us Mail</h4>
-                    <p>www.bma.edu.ph</p>
-                    <h4 class="fw-bolder">Find Maritime Academy, inc.</h4>
-                    <div>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3854.28456140621!2d120.92091487511337!3d14.976900785555266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33970046b15ff159%3A0xfb2580b7ac123830!2sBaliwag%20Maritime%20Foundation%2C%20Incorporated!5e0!3m2!1sen!2sph!4v1696818800804!5m2!1sen!2sph"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
                 </div>
                 <div class="col-md-4">
                     <h4 class="fw-bolder">APPLICATION FORM</h4>

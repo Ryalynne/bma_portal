@@ -58,6 +58,18 @@ const defaultchildRoutes = (prop) => [
     name: prop + '.Shs',
     meta: { auth: false, name: 'Shs', user: 'guest' },
     component: () => import('../views/Shs.vue')
+  },
+  {
+    path: '/Contact',
+    name: prop + '.Contact',
+    meta: { auth: false, name: 'Contact', user: 'guest' },
+    component: () => import('../views/Contact-page.vue')
+  },
+  {
+    path: '/Facilities',
+    name: prop + '.Facilities',
+    meta: { auth: false, name: 'Facilities', user: 'guest' },
+    component: () => import('../views/facilities-page.vue')
   }
 ]
 const authRoute = (prop) => [
@@ -81,12 +93,6 @@ const authRoute = (prop) => [
   }
 ]
 const routes = [
-  /*  {
-     path: '/',
-     name: 'auth-layout',
-     component: () => import('../components/main-layouts/auth-layout.vue'),
-     children: authRoute('auth-layout')
-   }, */
   {
     path: '/',
     name: 'app-layout',
@@ -113,9 +119,6 @@ const routes = [
   {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   }
 ]

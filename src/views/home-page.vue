@@ -255,14 +255,25 @@
                                     <div class="col-md-6 col-lg-8">
                                         <div class="card-body">
                                             <h4 class="card-title">Facilities</h4>
-                                            <p class="card-text">This is a wider card with supporting text below as a
-                                                natural lead-in. a little bit longer.</p>
-                                            <p class="card-text"><small class="text-success">Click Here</small>
+                                            <p class="card-text">
+                                                Baliwag Maritime Academy, Inc. (BMA) is a renowned maritime institution
+                                                that boasts a range of state-of-the-art facilities geared towards providing
+                                                top-notch education and practical training to aspiring mariners...</p>
+                                            <p class="card-text"><small class="text-success"><a href="#/Facilities">Click
+                                                        Here</a></small>
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div>
+                            <iframe
+                                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBaliwagMaritimeAcademyOfficial&tabs=timeline&width=1000&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                width="10000" height="800" style="border:none;overflow:hidden" scrolling="no"
+                                frameborder="0" allowfullscreen="true"
+                                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                            </iframe>
                         </div>
                     </div>
                 </section>

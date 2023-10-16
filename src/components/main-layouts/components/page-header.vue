@@ -49,11 +49,15 @@
                     <router-link :to="{ name: 'app-layout.AboutUs' }"
                         :class="name == 'AboutUs' ? 'nav-link active' : 'nav-link'" id="AboutUs" data-title="AboutUs"
                         @click="changename('AboutUs')">About Us</router-link>
+                        <router-link :to="{ name: 'app-layout.Facilities' }"
+                        :class="name == 'Facilities' ? 'nav-link active' : 'nav-link'" id="Facilities" data-title="Facilities"
+                        @click="changename('Facilities')">Facilities</router-link>
+                    <router-link :to="{ name: 'app-layout.Contact' }"
+                        :class="name == 'Contact' ? 'nav-link active' : 'nav-link'" id="Contact" data-title="Contact"
+                        @click="changename('Contact')">Contact</router-link>
                 </div>
             </nav>
         </div>
-
-
     </div>
 </template>
 <style>
