@@ -302,26 +302,6 @@
                                         </div>
                                         <div class="col-md-6 col-lg-8">
                                             <div class="card-body">
-                                                <h4 class="card-title">Learn more About Us</h4>
-                                                <p class="card-text">Baliwag Maritime Academy, Inc. (BMA) is a maritime
-                                                    institution that is affiliated with BALIWAG NAVIGATION, INC...</p>
-                                                <p class="card-text"><small class="text-success"><a href="#/AboutUs">Learn
-                                                            More...
-                                                        </a></small>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-6">
-                                <div class="card mb-2">
-                                    <div class="row no-gutters">
-                                        <div class="col-md-6 col-lg-4 mt-3">
-                                            <img src="@/assets/resources/banner/BANNER2.png" class="card-img" alt="#">
-                                        </div>
-                                        <div class="col-md-6 col-lg-8">
-                                            <div class="card-body">
                                                 <h4 class="card-title">Learn more About Facilities</h4>
                                                 <p class="card-text">
                                                     Baliwag Maritime Academy, Inc. (BMA) is a renowned maritime institution
@@ -335,12 +315,14 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-md-6 col-lg-6">
+                            </div>
                             <div class="col-md-6 col-lg-6 mt-5">
                                 <div class="card mb-2">
                                     <div class="row no-gutters">
                                         <h4 class="title-bt fw-bolder fs-1">News</h4>
                                         <iframe
-                                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBaliwagMaritimeAcademyOfficial&tabs=timeline&width=1000&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBaliwagMaritimeAcademyOfficial&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
                                             width="1000" height="800" style="border:none;overflow:hidden" scrolling="no"
                                             frameborder="0" allowfullscreen="true"
                                             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
