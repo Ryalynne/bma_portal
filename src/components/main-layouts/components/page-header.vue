@@ -42,19 +42,16 @@
             <nav class="nav nav-underline bg-soft-primary pb-0" aria-label="Secondary navigation">
                 <div class="d-flex" id="head-check">
                     <router-link :to="{ name: 'app-layout.home' }" :class="name == 'Home' ? 'nav-link active' : 'nav-link'"
-                        id="Home" data-title="Home" @click="changename('Home')">Home</router-link>
+                        id="Home" data-title="Home" @click="changename('Home')">About Us</router-link>
                     <router-link :to="{ name: 'app-layout.admission' }"
                         :class="name == 'Admission' ? 'nav-link active' : 'nav-link'" id="Admission" data-title="Admission"
                         @click="changename('Admission')">Admission</router-link>
-                    <router-link :to="{ name: 'app-layout.AboutUs' }"
-                        :class="name == 'AboutUs' ? 'nav-link active' : 'nav-link'" id="AboutUs" data-title="AboutUs"
-                        @click="changename('AboutUs')">About Us</router-link>
-                        <router-link :to="{ name: 'app-layout.Facilities' }"
-                        :class="name == 'Facilities' ? 'nav-link active' : 'nav-link'" id="Facilities" data-title="Facilities"
-                        @click="changename('Facilities')">Facilities</router-link>
+                    <router-link :to="{ name: 'app-layout.Facilities' }"
+                        :class="name == 'Facilities' ? 'nav-link active' : 'nav-link'" id="Facilities"
+                        data-title="Facilities" @click="changename('Facilities')">Facilities</router-link>
                     <router-link :to="{ name: 'app-layout.Contact' }"
                         :class="name == 'Contact' ? 'nav-link active' : 'nav-link'" id="Contact" data-title="Contact"
-                        @click="changename('Contact')">Contact</router-link>
+                        @click="changename('Contact')">Contact Us</router-link>
                 </div>
             </nav>
         </div>

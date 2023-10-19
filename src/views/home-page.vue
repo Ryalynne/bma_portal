@@ -2,9 +2,8 @@
     <div class="container position-relative">
         <div class="row">
             <div class="col-lg-12">
-                <!-- carousel -->
                 <div class="row  justify-content-center align-items-center banner-container bg-white mt-3 rounded">
-                    <div class="col-lg-7 banner-item order-lg-first order-last mt-lg-0">
+                    <div class="col-lg-6 banner-item order-lg-first order-last mt-lg-0">
                         <div class="banner-text">
                             <h2 class="mb-5 banner-text fw-bolder" id="hero-title">
                                 YOUR FIRST STEP IN REACHING YOUR MARITIME DREAM!
@@ -25,7 +24,6 @@
                                     fill="#FDDA5F" />
                             </svg>
                         </span>
-
                         <div class="d-flex hero-serch flex-wrap" id="hero-row">
                             <router-link :to="{ name: 'app-layout.admission' }" class="btn btn-primary" id="Admission"
                                 data-title="Admission" @click="changename('Admission')"> Inquire Now
@@ -38,7 +36,6 @@
                             </router-link>
                         </div>
                     </div>
-
                     <div class="col-lg-5 banner-img mt-5">
                         <div class="img text-end" id="hero-img">
                             <div class="col-sm-12 col-lg-15">
@@ -84,30 +81,22 @@
                                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         </a>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-5 banner-img">
-                        <div class="img text-end" id="hero-img">
-                            <img src="@/assets/resources/banner/BANNER2.png" class="img-fluid bg-img" alt="banner">
-                        </div>
-                    </div> -->
                 </div>
-                <!-- carousel -->
             </div>
-
         </div>
         <div class="editors position-relative">
             <div class="container" data-iq-gsap="onStart" data-iq-position-y="70" data-iq-rotate="0"
                 data-iq-trigger="scroll" data-iq-ease="power.out" data-iq-opacity="0">
                 <div class="row">
-                    <section class="editors mar-top mar-bot">
+                    <section class="editors  mar-bot">
+                        <hr>
                         <div class="header-title d-flex justify-content-between">
                             <h4 class="title-bt fw-bolder fs-1">Our Courses</h4>
                         </div>
-
                         <span class="ellipse3">
                             <svg width="45" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <ellipse rx="38.7296" ry="38.7296"
@@ -184,8 +173,6 @@
                                     <!-- </router-link> -->
                                 </div>
                             </div>
-
-
                             <div class="col">
                                 <div class="card bg-white iq-service-card">
                                     <!-- <router-link :to="{ name: 'app-layout.admission', query: { course: '3' } }" id="Admission"
@@ -217,8 +204,94 @@
                                 </div>
                             </div>
                         </div>
+                        <hr>
+                        <div class="container">
+                            <div class="card">
+                                <center><img src="@/assets/resources/image/bma-logo-1.png" alt="image"
+                                        class="img-fluid rounded-circle me-4 mt-3">
+                                </center>
+                                <h4 class="title-bt fw-bolder fs-1 text-center"> ABOUT BMA</h4>
+                                <p class="m-3 text-black">Baliwag Maritime Academy, Inc. (BMA) is a maritime institution
+                                    that is affiliated with
+                                    BALIWAG
+                                    NAVIGATION,
+                                    INC., (BNI) one of the leading ship management and crewing companies in the Philippines
+                                    with it’s shipping
+                                    department Westwind line. The Academy is a reliable source of competent marine
+                                    professionals for BNI Westwind
+                                    line and its foreign principals since 1994 building maritime achievers.
+
+                                    The Academy has its accreditation with CHED-MARINA for BSMT and BSMARE Program and
+                                    certified by ISO 9001:2015
+                                    accrediting bodies.</p>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card mt-3">
+                                        <center><img src="@/assets/resources/image/bma-logo-1.png" alt="image"
+                                                class="img-fluid rounded-circle me-4">
+                                        </center>
+                                        <h4 class="title-bt fw-bolder fs-1 text-center">MISSION</h4>
+                                        <p class="m-3 text-black justify-content-between"> The Baliwag Maritime Academy
+                                            shall offer its
+                                            students a
+                                            competency based Maritime
+                                            Education &
+                                            Training
+                                            Program
+                                            to
+                                            produce competent marine officers with an adequate knowledge, attitudes, &
+                                            leadership skills necessary in
+                                            pursuing
+                                            their respective professional maritime career which complies to national and
+                                            international standards.</p>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card mt-3">
+                                        <center><img src="@/assets/resources/image/bma-logo-1.png" alt="image"
+                                                class="img-fluid rounded-circle me-4">
+                                        </center>
+                                        <h4 class="title-bt fw-bolder fs-1 text-center">VISION</h4>
+                                        <p class="m-3 text-black justify-content-between"> The Baliwag Maritime Academy as
+                                            one of the leading
+                                            Maritime Higher Educational
+                                            Institution
+                                            visualizes itself
+                                            as
+                                            a producer of highly competent marine officers who will excel in the practice of
+                                            the seafaring profession in
+                                            both domestic and international shipping, and as competent maritime educators.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
                         <div class="row">
-                            <div class="col-sm-12">
+                            <center>
+                                <h2 class="mt-3 title-bt fw-bolder fs-1">Core Values</h2>
+                            </center>
+                            <div class="row">
+                                <div class="col-sm">
+                                    <h3 class="text-info">KNOWLEDGE</h3><br>
+                                    being consistently honest and trustworthy in work even without supervision thus gaining
+                                    trust and respect of clients and stakeholders with open and transparent decision making
+                                    processes.
+                                </div>
+                                <div class="col-sm">
+                                    <h3 class="text-danger">SELF-DISCIPLINE</h3><br>
+                                    ability to motivate oneself regardless emotional state leading towards hard work and
+                                    persistence to get ones' job done.
+                                </div>
+                                <div class="col-sm">
+                                    <h3 class="text-warning">EXCELLENCE</h3><br>
+                                    Striving for the highest personal and institutional achievement in all aspects of work,
+                                    individual and community action and life-long learning.
+                                </div>
+                            </div>
+                            <div class="col-sm-12 mt-5">
+                                <hr>
                                 <h4 class="title-bt fw-bolder fs-1">More Info</h4>
                             </div>
                             <div class="col-md-6 col-lg-6">
@@ -262,7 +335,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-6">
+                            <div class="col-md-6 col-lg-6 mt-5">
                                 <div class="card mb-2">
                                     <div class="row no-gutters">
                                         <h4 class="title-bt fw-bolder fs-1">News</h4>
@@ -275,7 +348,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-6">
+                            <div class="col-md-6 col-lg-6 mt-5">
                                 <div class="card mb-2">
                                     <div class="row no-gutters">
                                         <h4 class="title-bt fw-bolder fs-1">Events</h4>
@@ -287,27 +360,6 @@
                                         </iframe>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <center>
-                            <h2 class="mt-5 title-bt fw-bolder fs-1">Core Values</h2>
-                        </center>
-                        <div class="row mt-5">
-                            <div class="col-sm">
-                                <h3 class="text-info">KNOWLEDGE</h3><br>
-                                being consistently honest and trustworthy in work even without supervision thus gaining
-                                trust and respect of clients and stakeholders with open and transparent decision making
-                                processes.
-                            </div>
-                            <div class="col-sm">
-                                <h3 class="text-danger">SELF-DISCIPLINE</h3><br>
-                                ability to motivate oneself regardless emotional state leading towards hard work and
-                                persistence to get ones' job done.
-                            </div>
-                            <div class="col-sm">
-                                <h3 class="text-warning">EXCELLENCE</h3><br>
-                                Striving for the highest personal and institutional achievement in all aspects of work,
-                                individual and community action and life-long learning.
                             </div>
                         </div>
                     </section>
