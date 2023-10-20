@@ -43,12 +43,28 @@
                 <div class="d-flex" id="head-check">
                     <router-link :to="{ name: 'app-layout.home' }" :class="name == 'Home' ? 'nav-link active' : 'nav-link'"
                         id="Home" data-title="Home" @click="changename('Home')">About Us</router-link>
-                    <router-link :to="{ name: 'app-layout.admission' }"
+                    <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false"
+                        aria-expanded="true">
+                        Academics
+                    </a>
+                    <ul class="dropdown-menu " data-popper-placement="bottom-start">
+                        <!-- item-->
+                        <li> <router-link :to="{ name: 'app-layout.Facilities' }"
+                                :class="name == 'Facilities' ? 'nav-link active' : 'nav-link'" id="Facilities"
+                                data-title="Facilities" @click="changename('Facilities')">Facilities</router-link></li>
+                        <li><router-link :to="{ name: 'app-layout.admission' }"
+                                :class="name == 'Admission' ? 'nav-link active' : 'nav-link'" id="Admission"
+                                data-title="Admission" @click="changename('Admission')">Graduate School</router-link></li>
+                        <li><router-link :to="{ name: 'app-layout.admission' }"
+                                :class="name == 'Admission' ? 'nav-link active' : 'nav-link'" id="Admission"
+                                data-title="Admission" @click="changename('Admission')">Admission</router-link></li>
+                        <li><router-link :to="{ name: 'app-layout.admission' }"
+                                :class="name == 'Admission' ? 'nav-link active' : 'nav-link'" id="Admission"
+                                data-title="Admission" @click="changename('Admission')">Registrar</router-link></li>
+                    </ul>
+                    <!-- <router-link :to="{ name: 'app-layout.admission' }"
                         :class="name == 'Admission' ? 'nav-link active' : 'nav-link'" id="Admission" data-title="Admission"
-                        @click="changename('Admission')">Admission</router-link>
-                    <router-link :to="{ name: 'app-layout.Facilities' }"
-                        :class="name == 'Facilities' ? 'nav-link active' : 'nav-link'" id="Facilities"
-                        data-title="Facilities" @click="changename('Facilities')">Facilities</router-link>
+                        @click="changename('Admission')">Admission</router-link> -->
                     <router-link :to="{ name: 'app-layout.Contact' }"
                         :class="name == 'Contact' ? 'nav-link active' : 'nav-link'" id="Contact" data-title="Contact"
                         @click="changename('Contact')">Contact Us</router-link>

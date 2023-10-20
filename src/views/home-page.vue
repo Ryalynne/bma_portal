@@ -10,20 +10,6 @@
                             </h2>
                         </div>
                         <p>Reach your maritime dream right now. 🚢</p>
-                        <span class="ellipse">
-                            <svg width="79" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <ellipse rx="38.7296" ry="38.7296"
-                                    transform="matrix(0.938441 0.345441 -0.345486 0.938424 39.7266 39.7235)"
-                                    fill="#FDDA5F" />
-                            </svg>
-                        </span>
-                        <span class="ellipse1">
-                            <svg width="35" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <ellipse rx="38.7296" ry="38.7296"
-                                    transform="matrix(0.938441 0.345441 -0.345486 0.938424 39.7266 39.7235)"
-                                    fill="#FDDA5F" />
-                            </svg>
-                        </span>
                         <div class="d-flex hero-serch flex-wrap" id="hero-row">
                             <router-link :to="{ name: 'app-layout.admission' }" class="btn btn-primary" id="Admission"
                                 data-title="Admission" @click="changename('Admission')"> Inquire Now
@@ -95,7 +81,7 @@
                     <section class="editors  mar-bot">
                         <hr>
                         <div class="header-title d-flex justify-content-between">
-                            <h4 class="title-bt fw-bolder fs-1">Our Courses</h4>
+                            <h4 class="fw-bolder fs-1">Our Courses</h4>
                         </div>
                         <span class="ellipse3">
                             <svg width="45" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -205,12 +191,22 @@
                             </div>
                         </div>
                         <hr>
+                        <div class="card text-center mt-5 ">
+                            <h4 class="fw-bolder fs-1 text-primary">BALIWAG MARITIME ACADEMY, INC.</h4>
+                            <p class="text-info">"operates a management system that has been assessed as conforming to :"
+                            </p>
+                            <h4 class="mb-3">ISO 9001:2015</h4>
+                            <h5>for the scope of activities:</h5>
+                            <p>Provision of maritime education and training in accordance with STCW"95, As Amended and CHED
+                                Rules including
+                                design and developement</p>
+                            <div class="text-center">
+                                <img src="@/assets/resources/image/iso-logo.png" class="card-img height1 w-50" alt="#">
+                            </div>
+                        </div>
                         <div class="container">
                             <div class="card">
-                                <center><img src="@/assets/resources/image/bma-logo-1.png" alt="image"
-                                        class="img-fluid rounded-circle me-4 mt-3">
-                                </center>
-                                <h4 class="title-bt fw-bolder fs-1 text-center"> ABOUT BMA</h4>
+                                <h4 class="fw-bolder fs-1 text-center"> ABOUT BMA</h4>
                                 <p class="m-3 text-black">Baliwag Maritime Academy, Inc. (BMA) is a maritime institution
                                     that is affiliated with
                                     BALIWAG
@@ -228,10 +224,7 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <center><img src="@/assets/resources/image/bma-logo-1.png" alt="image"
-                                                class="img-fluid rounded-circle me-4">
-                                        </center>
-                                        <h4 class="title-bt fw-bolder fs-1 text-center">MISSION</h4>
+                                        <h4 class="fw-bolder fs-1 text-center">MISSION</h4>
                                         <p class="m-3 text-black justify-content-between"> The Baliwag Maritime Academy
                                             shall offer its
                                             students a
@@ -249,10 +242,10 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <center><img src="@/assets/resources/image/bma-logo-1.png" alt="image"
+                                        <!-- <center><img src="@/assets/resources/image/bma-logo-1.png" alt="image"
                                                 class="img-fluid rounded-circle me-4">
-                                        </center>
-                                        <h4 class="title-bt fw-bolder fs-1 text-center">VISION</h4>
+                                        </center> -->
+                                        <h4 class="fw-bolder fs-1 text-center">VISION</h4>
                                         <p class="m-3 text-black justify-content-between"> The Baliwag Maritime Academy as
                                             one of the leading
                                             Maritime Higher Educational
@@ -268,26 +261,29 @@
                             </div>
                         </div>
                         <hr>
-                        <div class="row">
-                            <center>
+                        <div class="row text-center">
+                            <div class="card">
                                 <h2 class="mt-3 title-bt fw-bolder fs-1">Core Values</h2>
-                            </center>
-                            <div class="row">
-                                <div class="col-sm">
-                                    <h3 class="text-info">KNOWLEDGE</h3><br>
-                                    being consistently honest and trustworthy in work even without supervision thus gaining
-                                    trust and respect of clients and stakeholders with open and transparent decision making
-                                    processes.
-                                </div>
-                                <div class="col-sm">
-                                    <h3 class="text-danger">SELF-DISCIPLINE</h3><br>
-                                    ability to motivate oneself regardless emotional state leading towards hard work and
-                                    persistence to get ones' job done.
-                                </div>
-                                <div class="col-sm">
-                                    <h3 class="text-warning">EXCELLENCE</h3><br>
-                                    Striving for the highest personal and institutional achievement in all aspects of work,
-                                    individual and community action and life-long learning.
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <h3 class="text-info">KNOWLEDGE</h3><br>
+                                        being consistently honest and trustworthy in work even without supervision thus
+                                        gaining
+                                        trust and respect of clients and stakeholders with open and transparent decision
+                                        making
+                                        processes.
+                                    </div>
+                                    <div class="col-sm">
+                                        <h3 class="text-danger">SELF-DISCIPLINE</h3><br>
+                                        ability to motivate oneself regardless emotional state leading towards hard work and
+                                        persistence to get ones' job done.
+                                    </div>
+                                    <div class="col-sm">
+                                        <h3 class="text-warning">EXCELLENCE</h3><br>
+                                        Striving for the highest personal and institutional achievement in all aspects of
+                                        work,
+                                        individual and community action and life-long learning.
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 mt-5">
@@ -316,15 +312,34 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-6">
+                                <div class="card mb-2">
+                                    <div class="row no-gutters">
+                                        <div class="col-md-6 col-lg-4 mt-3">
+                                            <img src="@/assets/resources/banner/BANNER2.png" class="card-img" alt="#">
+                                        </div>
+                                        <div class="col-md-6 col-lg-8">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Learn more About Facilities</h4>
+                                                <p class="card-text">
+                                                    Baliwag Maritime Academy, Inc. (BMA) is a renowned maritime institution
+                                                    that boasts a range of state-of-the-art facilities...</p>
+                                                <p class="card-text"><small class="text-success"><a
+                                                            href="#/Facilities">Learn
+                                                            More...</a></small>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-6 mt-5">
                                 <div class="card mb-2">
                                     <div class="row no-gutters">
                                         <h4 class="title-bt fw-bolder fs-1">News</h4>
                                         <iframe
-                                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBaliwagMaritimeAcademyOfficial&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                                            width="1000" height="800" style="border:none;overflow:hidden" scrolling="no"
-                                            frameborder="0" allowfullscreen="true"
+                                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBaliwagMaritimeAcademyOfficial&tabs=timeline&width=1000&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                            height="770" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                                            allowfullscreen="true"
                                             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
                                         </iframe>
                                     </div>
@@ -333,13 +348,178 @@
                             <div class="col-md-6 col-lg-6 mt-5">
                                 <div class="card mb-2">
                                     <div class="row no-gutters">
-                                        <h4 class="title-bt fw-bolder fs-1">Events</h4>
-                                        <iframe
-                                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBaliwagMaritimeAcademyOfficial&tabs=timeline&width=1000&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                                            width="1000" height="800" style="border:none;overflow:hidden" scrolling="no"
-                                            frameborder="0" allowfullscreen="true"
-                                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-                                        </iframe>
+                                        <h4 class="title-bt fw-bolder fs-1">Event</h4>
+                                        <div id="carouselExampleControls" class="carousel carousel-dark slide"
+                                            data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <div class="card-wrapper container-sm d-flex  justify-content-around">
+                                                        <div class="card  " style="width: 18rem;">
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card" style="width: 18rem;">
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card" style="width: 18rem;">
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="card-wrapper container-sm d-flex   justify-content-around">
+                                                        <div class="card  " style="width: 18rem;">
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card" style="width: 18rem;">
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card" style="width: 18rem;">
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <div class="card-wrapper container-sm d-flex  justify-content-around">
+                                                        <div class="card " style="width: 18rem;">
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card" style="width: 18rem;">
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="card" style="width: 18rem;">
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
+                                                                class="card-img-top" alt="...">
+                                                            <div class="card-body">
+                                                                <h5 class="card-title">Card title</h5>
+                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                                    Molestiae, doloremque!</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button class="carousel-control-prev" type="button"
+                                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Previous</span>
+                                                </button>
+                                                <button class="carousel-control-next" type="button"
+                                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="visually-hidden">Next</span>
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
