@@ -81,7 +81,7 @@
                     <section class="editors  mar-bot">
                         <hr>
                         <div class="header-title d-flex justify-content-between">
-                            <h4 class="fw-bolder fs-1">Our Courses</h4>
+                            <h4 class="fw-bolder fs-1 ">Our Courses</h4>
                         </div>
                         <span class="ellipse3">
                             <svg width="45" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -206,7 +206,7 @@
                         </div>
                         <div class="container">
                             <div class="card">
-                                <h4 class="fw-bolder fs-1 text-center"> ABOUT BMA</h4>
+                                <h4 class="fw-bolder fs-1 text-center text-primary"> ABOUT BMA</h4>
                                 <p class="m-3 text-black">Baliwag Maritime Academy, Inc. (BMA) is a maritime institution
                                     that is affiliated with
                                     BALIWAG
@@ -224,7 +224,7 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <h4 class="fw-bolder fs-1 text-center">MISSION</h4>
+                                        <h4 class="fw-bolder fs-1 text-center text-primary">MISSION</h4>
                                         <p class="m-3 text-black justify-content-between"> The Baliwag Maritime Academy
                                             shall offer its
                                             students a
@@ -245,7 +245,7 @@
                                         <!-- <center><img src="@/assets/resources/image/bma-logo-1.png" alt="image"
                                                 class="img-fluid rounded-circle me-4">
                                         </center> -->
-                                        <h4 class="fw-bolder fs-1 text-center">VISION</h4>
+                                        <h4 class="fw-bolder fs-1 text-center text-primary">VISION</h4>
                                         <p class="m-3 text-black justify-content-between"> The Baliwag Maritime Academy as
                                             one of the leading
                                             Maritime Higher Educational
@@ -263,7 +263,7 @@
                         <hr>
                         <div class="row text-center">
                             <div class="card">
-                                <h2 class="mt-3 title-bt fw-bolder fs-1">Core Values</h2>
+                                <h2 class="mt-3 title-bt fw-bolder fs-1 text-primary">Core Values</h2>
                                 <div class="row">
                                     <div class="col-sm">
                                         <h3 class="text-info">KNOWLEDGE</h3><br>
