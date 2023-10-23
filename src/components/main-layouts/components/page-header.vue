@@ -54,10 +54,12 @@
                                 data-title="Facilities" @click="changename('Facilities')">Facilities</router-link></li>
                         <li><router-link :to="{ name: 'app-layout.admission' }"
                                 :class="name == 'Admission' ? 'nav-link active' : 'nav-link'" id="Admission"
-                                data-title="Admission" @click="changename('Admission')">Graduate School</router-link></li>
+                                data-title="Admission" @click="changename('Admission')">Admission</router-link></li>
+
                         <li><router-link :to="{ name: 'app-layout.admission' }"
                                 :class="name == 'Admission' ? 'nav-link active' : 'nav-link'" id="Admission"
-                                data-title="Admission" @click="changename('Admission')">Admission</router-link></li>
+                                data-title="Admission" @click="changename('Admission')">Graduate School</router-link></li>
+
                         <li><router-link :to="{ name: 'app-layout.admission' }"
                                 :class="name == 'Admission' ? 'nav-link active' : 'nav-link'" id="Admission"
                                 data-title="Admission" @click="changename('Admission')">Registrar</router-link></li>

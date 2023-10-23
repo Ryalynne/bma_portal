@@ -21,50 +21,14 @@
                         </p>
                     </div>
                     <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-5">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Social Links
-                        </h6>
-                        <p>
-                            <a href="javascript:void(0)">
-                                <img src="@/assets/images/brands/gm.svg" alt="gm">
-                                <a href="www.bma.edu.ph" target="_blank" rel="noopener noreferrer"> <span
-                                        class="brand-text">www.bma.edu.ph</span></a>
-                            </a>
-                        </p>
-                        <p>
-                            <a href="javascript:void(0)">
-                                <img src="@/assets/images/brands/fb.svg" alt="fb">
-                                <a href="https://www.facebook.com/BaliwagMaritimeAcademyOfficial" target="_blank"
-                                    rel="noopener noreferrer"><span class="brand-text">BMAOfficial</span></a>
-                            </a>
-                        </p>
-                        <p>
-                            <a href="javascript:void(0)">
-                                <img src="@/assets/images/brands/im.svg" alt="im">
-                                <span class="brand-text">IM Text</span>
-                            </a>
-                        </p>
-                        <p>
-                            <a href="javascript:void(0)">
-                                <img src="@/assets/images/brands/li.svg" alt="li">
-                                <span class="brand-text">LI Text</span>
-                            </a>
-                        </p>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-5">
                         <!-- Links -->
                         <h6 class="text-uppercase fw-bold mb-4">
-                            Useful links
+                           Connected Links
                         </h6>
                         <p>
-                            <a href="https://ptc.com.ph/ourjournal-Sea%20Mariners%20welcomes%20Baliwag%20Maritime%20Academy%20as%20its%2010th%20ship.html" class="text-reset">PTC INC.</a>
+                            <a href="https://ptc.com.ph/ourjournal-Sea%20Mariners%20welcomes%20Baliwag%20Maritime%20Academy%20as%20its%2010th%20ship.html"
+                                class="text-reset">PTC INC.</a>
                         </p>
                         <p>
                             <a href="#!" class="text-reset">Settings</a>
@@ -77,8 +41,6 @@
                         </p>
                     </div>
                     <!-- Grid column -->
-
-                    <!-- Grid column -->
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mt-5">
                         <!-- Links -->
                         <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
@@ -86,10 +48,9 @@
                             Km 54 Calle Rizal, San Rafael, Bulacan</p>
                         <p>
                             <i class="fas fa-envelope me-3"></i>
-                            www.bma.edu.ph
+                            registrar@bma.edu.ph
                         </p>
                         <p><i class="fas fa-phone me-3"></i> + (044) 766 1263</p>
-                        <p><i class="fas fa-print me-3"></i> + (044) 766 1263</p>
                     </div>
                     <!-- Grid column -->
                 </div>
@@ -97,65 +58,21 @@
             </div>
         </section>
         <!-- Section: Links  -->
-
         <!-- Copyright -->
-        <div class="text-center p-4 bg-soft-primary">
-            © 2021 Copyright:
-            <a class="text-reset fw-bold" href="www.bma.edu.ph">All Rights Reserved.</a>
+        <div class="p-3 bg-soft-primary text-center">
+            <div class="text-center">
+                <a href="https://www.facebook.com/BaliwagMaritimeAcademyOfficial" target="_blank" rel="noopener noreferrer">
+                    <img src="@/assets/images/brands/fb.svg" alt="fb">
+                    <span class="brand-text">BMAOfficial</span>
+                </a>
+            </div>
         </div>
         <!-- Copyright -->
     </footer>
-    <!-- Footer -->
-    <!-- <footer class="footer py-3 border-top">
-        <div class="container-fluid">
-            <div class="row align-items-center bg-white">
-                <div class="col-sm-7 ">
-                    <div class="">
-                        <h2 class="">BALIWAG MARITIME ACADEMY</h2>
-                    </div>
-                    <div class="right-panel">
-                        © by <a target="_blank" href="https://iqonic.design/">SIERADATA IT SOLUTIONS</a>.
-                    </div>
-                </div>
-                <div class="col-sm-7">
-                    <ul class="list-group list-group-horizontal list-group-flush">
-                        <li class="list-inline">
-                            <a href="javascript:void(0)">
-                                <img src="@/assets/images/brands/gm.svg" alt="gm">
-                                <a href="www.bma.edu.ph" target="_blank" rel="noopener noreferrer"> <span
-                                        class="brand-text">www.bma.edu.ph</span></a>
-                            </a>
-                        </li>
-                        <li class="list-inline">
-                            <a href="javascript:void(0)">
-                                <img src="@/assets/images/brands/fb.svg" alt="fb">
-                                <a href="https://www.facebook.com/BaliwagMaritimeAcademyOfficial" target="_blank"
-                                    rel="noopener noreferrer"><span
-                                        class="brand-text">BaliwagMaritimeAcademyOfficial</span></a>
-                            </a>
-                        </li>
-                        <li class="list-inline">
-                            <a href="javascript:void(0)">
-                                <img src="@/assets/images/brands/im.svg" alt="im">
-                                <span class="brand-text">IM Text</span>
-                            </a>
-                        </li>
-                        <li class="list-inline">
-                            <a href="javascript:void(0)">
-                                <img src="@/assets/images/brands/li.svg" alt="li">
-                                <span class="brand-text">LI Text</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer> -->
 </template>
 <script>
 export default {
     name: 'page-footer'
-
 }
 </script>
 <style></style>

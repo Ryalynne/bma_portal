@@ -80,117 +80,6 @@
                 <div class="row">
                     <section class="editors  mar-bot">
                         <hr>
-                        <div class="header-title d-flex justify-content-between">
-                            <h4 class="fw-bolder fs-1 ">Our Courses</h4>
-                        </div>
-                        <span class="ellipse3">
-                            <svg width="45" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <ellipse rx="38.7296" ry="38.7296"
-                                    transform="matrix(0.938441 0.345441 -0.345486 0.938424 39.7266 39.7235)"
-                                    fill="#FDDA5F" />
-                            </svg>
-                        </span>
-                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 list-inline">
-                            <div class="col">
-                                <div class="card bg-white iq-service-card">
-                                    <!-- <router-link :to="{ name: 'app-layout.admission', query: { course: '2' } }" id="Admission"
-                                    data-title="Admission" @click="changename('Admission')"> -->
-                                    <div class="iq-image position-relative">
-                                        <div class="img">
-                                            <img src="@/assets/resources/banner/BSMT.png" alt="image"
-                                                class="img-fluid height1 radius-our w-100">
-                                        </div>
-                                        <!-- <div class="app badge-2 btn btn-sm btn-primary">$2000</div> -->
-                                        <div class="app badge-1 btn btn-sm btn-primary">COLLEGE</div>
-                                        <div class="app badge-3 ms-3 btn btn-sm text-white btn-info">BSMT</div>
-
-                                    </div>
-                                    <div class="card-body pb-3">
-                                        <div class="border-bottom mt-3">
-                                            <h5 class=" mb-3 fw-bolder">BS in Marine Transportation</h5>
-                                        </div>
-                                        <div class="d-flex justify-content-between flex-wrap mt-3">
-                                            <div>
-
-                                                <span class="text-dark ms-2">BS Marine Transportation - is a
-                                                    maritime education program that covers the mandatory education
-                                                    and training for a Navigational Watch required under Regulation
-                                                    II/I of the STCW Convention, 1978, as amended.
-
-                                                </span>
-                                                <a href="#/bsmt" class="text-primary-emphasis">Read More.</a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <!-- </router-link> -->
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card bg-white iq-service-card">
-                                    <!-- <router-link :to="{ name: 'app-layout.admission', query: { course: '1' } }" id="Admission"
-                                    data-title="Admission" @click="changename('Admission')"> -->
-                                    <div class="iq-image position-relative">
-                                        <div class="img">
-                                            <img src="@/assets/resources/banner/BSMARE.png" alt="image"
-                                                class="img-fluid height1 radius-our w-100">
-                                        </div>
-                                        <div class="app badge-1 btn btn-sm btn-primary">COLLEGE</div>
-                                        <div class="app badge-3 ms-3 btn btn-sm text-white btn-info">BSMARE</div>
-                                    </div>
-                                    <div class="card-body pb-3">
-                                        <div class="border-bottom mt-3">
-                                            <h5 class="mb-3 fw-bolder">BS in Marine ENGINEERING</h5>
-                                        </div>
-                                        <div class="d-flex justify-content-between flex-wrap mt-3">
-                                            <div>
-
-                                                <span class="text-dark ms-2">BS Marine Engineering - is a maritime
-                                                    education program that covers the mandatory education and
-                                                    training for Officers in Charge of an Engineering Watch required
-                                                    under Regulation III/I of the STCW Convention, 1978, as amended
-
-                                                </span>
-                                                <a href="#/Bsme" class="text-primary-emphasis">Read More.</a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <!-- </router-link> -->
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card bg-white iq-service-card">
-                                    <!-- <router-link :to="{ name: 'app-layout.admission', query: { course: '3' } }" id="Admission"
-                                    data-title="Admission" @click="changename('Admission')"> -->
-                                    <div class="iq-image position-relative">
-                                        <div class="img">
-                                            <img src="@/assets/resources/banner/SHS.png" alt="image"
-                                                class="img-fluid height1 radius-our w-100">
-                                        </div>
-                                        <!-- <div class="app badge-2 btn btn-sm btn-primary">$2000</div> -->
-                                        <div class="app badge-1 btn btn-sm btn-primary ">SENIOR HIGHSCHOOL</div>
-
-                                    </div>
-                                    <div class="card-body pb-3">
-                                        <div class="border-bottom mt-3">
-                                            <h5 class="mb-3 fw-bolder">Pre-Baccalaureate Maritime</h5>
-                                        </div>
-                                        <div class="d-flex justify-content-between flex-wrap mt-3">
-                                            <div>
-                                                <span class="text-dark ms-2">Senior High School - covers the
-                                                    mandatory education for the last two years of the K to 12
-                                                    Program and includes Grade 11 and 12 required by the Department
-                                                    of Education and Marina.
-                                                </span>
-                                                <a href="#/shs" class="text-primary-emphasis">Read More.</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <hr>
                         <div class="card text-center mt-5 ">
                             <h4 class="fw-bolder fs-1 text-primary">BALIWAG MARITIME ACADEMY, INC.</h4>
                             <p class="text-info">"operates a management system that has been assessed as conforming to :"
@@ -242,9 +131,6 @@
                                 </div>
                                 <div class="col">
                                     <div class="card mt-3">
-                                        <!-- <center><img src="@/assets/resources/image/bma-logo-1.png" alt="image"
-                                                class="img-fluid rounded-circle me-4">
-                                        </center> -->
                                         <h4 class="fw-bolder fs-1 text-center text-primary">VISION</h4>
                                         <p class="m-3 text-black justify-content-between"> The Baliwag Maritime Academy as
                                             one of the leading
@@ -263,7 +149,7 @@
                         <hr>
                         <div class="row text-center">
                             <div class="card">
-                                <h2 class="mt-3 title-bt fw-bolder fs-1 text-primary">Core Values</h2>
+                                <h2 class="mt-3 title-bt fw-bolder fs-1">Core Values</h2>
                                 <div class="row">
                                     <div class="col-sm">
                                         <h3 class="text-info">KNOWLEDGE</h3><br>
@@ -290,6 +176,98 @@
                                 <hr>
                                 <h4 class="title-bt fw-bolder fs-1">More Info</h4>
                             </div>
+                            <div class="header-title d-flex justify-content-between">
+                                <h4 class="fw-bolder fs-1 ">Our Courses</h4>
+                            </div>
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 list-inline">
+                                <div class="col">
+                                    <div class="card bg-white iq-service-card">
+                                        <div class="iq-image position-relative">
+                                            <div class="img">
+                                                <img src="@/assets/resources/banner/BSMT.png" alt="image"
+                                                    class="img-fluid height1 radius-our w-100">
+                                            </div>
+                                            <!-- <div class="app badge-2 btn btn-sm btn-primary">$2000</div> -->
+                                            <div class="app badge-1 btn btn-sm btn-primary">COLLEGE</div>
+                                            <div class="app badge-3 ms-3 btn btn-sm text-white btn-info">BSMT</div>
+                                        </div>
+                                        <div class="card-body pb-3">
+                                            <div class="border-bottom mt-3">
+                                                <h5 class=" mb-3 fw-bolder">BS in Marine Transportation</h5>
+                                            </div>
+                                            <div class="d-flex justify-content-between flex-wrap mt-3">
+                                                <div>
+                                                    <span class="text-dark ms-2">BS Marine Transportation - is a
+                                                        maritime education program that covers the mandatory education
+                                                        and training for a Navigational Watch required under Regulation
+                                                        II/I of the STCW Convention, 1978, as amended.
+                                                    </span>
+                                                    <a href="#/bsmt" class="text-primary-emphasis">Read More.</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- </router-link> -->
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card bg-white iq-service-card">
+                                        <div class="iq-image position-relative">
+                                            <div class="img">
+                                                <img src="@/assets/resources/banner/BSMARE.png" alt="image"
+                                                    class="img-fluid height1 radius-our w-100">
+                                            </div>
+                                            <div class="app badge-1 btn btn-sm btn-primary">COLLEGE</div>
+                                            <div class="app badge-3 ms-3 btn btn-sm text-white btn-info">BSMARE</div>
+                                        </div>
+                                        <div class="card-body pb-3">
+                                            <div class="border-bottom mt-3">
+                                                <h5 class="mb-3 fw-bolder">BS in Marine ENGINEERING</h5>
+                                            </div>
+                                            <div class="d-flex justify-content-between flex-wrap mt-3">
+                                                <div>
+
+                                                    <span class="text-dark ms-2">BS Marine Engineering - is a maritime
+                                                        education program that covers the mandatory education and
+                                                        training for Officers in Charge of an Engineering Watch required
+                                                        under Regulation III/I of the STCW Convention, 1978, as amended
+
+                                                    </span>
+                                                    <a href="#/Bsme" class="text-primary-emphasis">Read More.</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <!-- </router-link> -->
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card bg-white iq-service-card">
+                                        <div class="iq-image position-relative">
+                                            <div class="img">
+                                                <img src="@/assets/resources/banner/SHS.png" alt="image"
+                                                    class="img-fluid height1 radius-our w-100">
+                                            </div>
+                                            <div class="app badge-1 btn btn-sm btn-primary ">SENIOR HIGHSCHOOL</div>
+                                        </div>
+                                        <div class="card-body pb-3">
+                                            <div class="border-bottom mt-3">
+                                                <h5 class="mb-3 fw-bolder">Pre-Baccalaureate Maritime</h5>
+                                            </div>
+                                            <div class="d-flex justify-content-between flex-wrap mt-3">
+                                                <div>
+                                                    <span class="text-dark ms-2">Senior High School - covers the
+                                                        mandatory education for the last two years of the K to 12
+                                                        Program and includes Grade 11 and 12 required by the Department
+                                                        of Education and Marina.
+                                                    </span>
+                                                    <a href="#/shs" class="text-primary-emphasis">Read More.</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
                             <div class="col-md-6 col-lg-6">
                                 <div class="card mb-2">
                                     <div class="row no-gutters">
@@ -334,7 +312,7 @@
                             </div>
                             <div class="col-md-6 col-lg-6 mt-5">
                                 <div class="card mb-2">
-                                    <div class="row no-gutters">
+                                    <div class="row no-gutters m-5">
                                         <h4 class="title-bt fw-bolder fs-1">News</h4>
                                         <iframe
                                             src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBaliwagMaritimeAcademyOfficial&tabs=timeline&width=1000&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
@@ -347,178 +325,70 @@
                             </div>
                             <div class="col-md-6 col-lg-6 mt-5">
                                 <div class="card mb-2">
-                                    <div class="row no-gutters">
+                                    <div class="row no-gutters m-5">
                                         <h4 class="title-bt fw-bolder fs-1">Event</h4>
-                                        <div id="carouselExampleControls" class="carousel carousel-dark slide"
-                                            data-bs-ride="carousel">
-                                            <div class="carousel-inner">
-                                                <div class="carousel-item active">
-                                                    <div class="card-wrapper container-sm d-flex  justify-content-around">
-                                                        <div class="card  " style="width: 18rem;">
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card" style="width: 18rem;">
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card" style="width: 18rem;">
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="card-wrapper container-sm d-flex   justify-content-around">
-                                                        <div class="card  " style="width: 18rem;">
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card" style="width: 18rem;">
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card" style="width: 18rem;">
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <div class="card-wrapper container-sm d-flex  justify-content-around">
-                                                        <div class="card " style="width: 18rem;">
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card" style="width: 18rem;">
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="card" style="width: 18rem;">
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                            <img src="https://source.unsplash.com/collection/190727/1600x900"
-                                                                class="card-img-top" alt="...">
-                                                            <div class="card-body">
-                                                                <h5 class="card-title">Card title</h5>
-                                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                                                    Molestiae, doloremque!</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <button class="carousel-control-prev" type="button"
-                                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                    <span class="visually-hidden">Previous</span>
-                                                </button>
-                                                <button class="carousel-control-next" type="button"
-                                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                    <span class="visually-hidden">Next</span>
-                                                </button>
-                                            </div>
+                                        <div class="overflow-auto" style="height: 770px;">
+                                            <a href="#">
+                                                <h4 class="text-start text-primary">Maritime Academy of Asia and the
+                                                    Pacific
+                                                    (MAAP)
+                                                    and Kongsberg Digital signs
+                                                    key simulation contract</h4>
+                                            </a>
+                                            <p class="text-start">VADM Eduardo Ma R Santos, MAAP President together with
+                                                Engr. Gerardo Ramon S.
+                                                Galang, MIITD Director attended the Kongsberg Digital Maritime Simulation
+                                                User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
+                                            <a href="#">
+                                                <h4 class="text-start text-primary">Maritime Academy of Asia and the Pacific
+                                                    (MAAP)
+                                                    and Kongsberg Digital signs
+                                                    key simulation contract</h4>
+                                            </a>
+                                            <p class="text-start">VADM Eduardo Ma R Santos, MAAP President together with
+                                                Engr. Gerardo Ramon S.
+                                                Galang, MIITD Director attended the Kongsberg Digital Maritime Simulation
+                                                User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
+                                            <a href="#">
+                                                <h4 class="text-start text-primary">Maritime Academy of Asia and the Pacific
+                                                    (MAAP)
+                                                    and Kongsberg Digital signs
+                                                    key simulation contract</h4>
+                                            </a>
+                                            <p class="text-start">VADM Eduardo Ma R Santos, MAAP President together with
+                                                Engr. Gerardo Ramon S.
+                                                Galang, MIITD Director attended the Kongsberg Digital Maritime Simulation
+                                                User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
+                                            <a href="#">
+                                                <h4 class="text-start text-primary">Maritime Academy of Asia and the Pacific
+                                                    (MAAP)
+                                                    and Kongsberg Digital signs
+                                                    key simulation contract</h4>
+                                            </a>
+                                            <p class="text-start">VADM Eduardo Ma R Santos, MAAP President together with
+                                                Engr. Gerardo Ramon S.
+                                                Galang, MIITD Director attended the Kongsberg Digital Maritime Simulation
+                                                User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
+                                            <a href="#">
+                                                <h4 class="text-start text-primary">Maritime Academy of Asia and the Pacific
+                                                    (MAAP)
+                                                    and Kongsberg Digital signs
+                                                    key simulation contract</h4>
+                                            </a>
+                                            <p class="text-start">VADM Eduardo Ma R Santos, MAAP President together with
+                                                Engr. Gerardo Ramon S.
+                                                Galang, MIITD Director attended the Kongsberg Digital Maritime Simulation
+                                                User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
+                                            <a href="#">
+                                                <h4 class="text-start text-primary">Maritime Academy of Asia and the Pacific
+                                                    (MAAP)
+                                                    and Kongsberg Digital signs
+                                                    key simulation contract</h4>
+                                            </a>
+                                            <p class="text-start">VADM Eduardo Ma R Santos, MAAP President together with
+                                                Engr. Gerardo Ramon S.
+                                                Galang, MIITD Director attended the Kongsberg Digital Maritime Simulation
+                                                User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
                                         </div>
                                     </div>
                                 </div>
