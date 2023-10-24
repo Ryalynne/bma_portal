@@ -6,7 +6,7 @@
                 <!-- Grid row -->
                 <div class="row mt-3">
                     <!-- Grid column -->
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <div class="col-md-3 col-lg-4 col-xl-8 mx-auto mb-4">
                         <!-- Content -->
                         <h6 class="text-uppercase fw-bold mb-4 mt-5">
                             <i> <img src="@/assets/resources/image/bma-logo-1.png" alt="image"
@@ -19,12 +19,18 @@
                             all liability for, damages of any kind arising out of use, reference to, or reliance on any
                             information contained within the site.
                         </p>
+                        <p>Copyright © BALIWAG MARITIME ACADEMY, INC.</p>
+                        <h6 class="text-uppercase fw-bold mb-2">Follow Us ON</h6>
+                        <a href="https://www.facebook.com/BaliwagMaritimeAcademyOfficial" target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="@/assets/images/brands/fb.svg" alt="fb">
+                            <span class="brand-text">BMAOfficial</span>
+                        </a>
                     </div>
-                    <!-- Grid column -->
+                    <!-- Grid column
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-5">
-                        <!-- Links -->
                         <h6 class="text-uppercase fw-bold mb-4">
-                           Connected Links
+                            Connected Links
                         </h6>
                         <p>
                             <a href="https://ptc.com.ph/ourjournal-Sea%20Mariners%20welcomes%20Baliwag%20Maritime%20Academy%20as%20its%2010th%20ship.html"
@@ -39,9 +45,9 @@
                         <p>
                             <a href="#!" class="text-reset">Help</a>
                         </p>
-                    </div>
+                    </div> -->
                     <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mt-5">
+                    <div class="col-md-4 col-lg-3 col-xl-4 mx-auto mb-md-0 mb-4 mt-5">
                         <!-- Links -->
                         <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
                         <p><i class="fas fa-home me-3"></i> Baliwag Maritime Foundation, Incorporated
@@ -51,6 +57,7 @@
                             registrar@bma.edu.ph
                         </p>
                         <p><i class="fas fa-phone me-3"></i> + (044) 766 1263</p>
+
                     </div>
                     <!-- Grid column -->
                 </div>
@@ -59,14 +66,14 @@
         </section>
         <!-- Section: Links  -->
         <!-- Copyright -->
-        <div class="p-3 bg-soft-primary text-center">
+        <!-- <div class="p-3 bg-soft-primary text-center">
             <div class="text-center">
                 <a href="https://www.facebook.com/BaliwagMaritimeAcademyOfficial" target="_blank" rel="noopener noreferrer">
                     <img src="@/assets/images/brands/fb.svg" alt="fb">
                     <span class="brand-text">BMAOfficial</span>
                 </a>
             </div>
-        </div>
+        </div> -->
         <!-- Copyright -->
     </footer>
 </template>
