@@ -56,13 +56,14 @@
                                 :class="name == 'Admission' ? 'nav-link active' : 'nav-link'" id="Admission"
                                 data-title="Admission" @click="changename('Admission')">Admission</router-link></li>
 
-                        <li><router-link :to="{ name: 'app-layout.admission' }"
-                                :class="name == 'Admission' ? 'nav-link active' : 'nav-link'" id="Admission"
-                                data-title="Admission" @click="changename('Admission')">Graduate School</router-link></li>
-
-                        <li><router-link :to="{ name: 'app-layout.admission' }"
-                                :class="name == 'Admission' ? 'nav-link active' : 'nav-link'" id="Admission"
-                                data-title="Admission" @click="changename('Admission')">Registrar</router-link></li>
+                        <li><router-link :to="{ name: 'app-layout.GraduateSchool' }"
+                                :class="name == 'GraduateSchool' ? 'nav-link active' : 'nav-link'" id="GraduateSchool"
+                                data-title="GraduateSchool" @click="changename('GraduateSchool')">Graduate
+                                School</router-link></li>
+                        <hr>
+                        <li><router-link :to="{ name: 'app-layout.Registrar' }"
+                                :class="name == 'Registrar' ? 'nav-link active' : 'nav-link'" id="Registrar"
+                                data-title="Registrar" @click="changename('Registrar')">Registrar</router-link></li>
                     </ul>
                     <!-- <router-link :to="{ name: 'app-layout.admission' }"
                         :class="name == 'Admission' ? 'nav-link active' : 'nav-link'" id="Admission" data-title="Admission"

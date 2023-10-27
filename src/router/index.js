@@ -70,6 +70,18 @@ const defaultchildRoutes = (prop) => [
     name: prop + '.Facilities',
     meta: { auth: false, name: 'Facilities', user: 'guest' },
     component: () => import('../views/facilities-page.vue')
+  },
+  {
+    path: '/Registrar',
+    name: prop + '.Registrar',
+    meta: { auth: false, name: 'Registrar', user: 'guest' },
+    component: () => import('../views/Registrar-page.vue')
+  },
+  {
+    path: '/GraduateSchool',
+    name: prop + '.GraduateSchool',
+    meta: { auth: false, name: 'GraduateSchool', user: 'guest' },
+    component: () => import('../views/GraduateSchool-page.vue')
   }
 ]
 const authRoute = (prop) => [

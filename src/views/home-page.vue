@@ -225,16 +225,13 @@
                                             </div>
                                             <div class="d-flex justify-content-between flex-wrap mt-3">
                                                 <div>
-
                                                     <span class="text-dark ms-2">BS Marine Engineering - is a maritime
                                                         education program that covers the mandatory education and
                                                         training for Officers in Charge of an Engineering Watch required
                                                         under Regulation III/I of the STCW Convention, 1978, as amended
-
                                                     </span>
                                                     <a href="#/Bsme" class="text-primary-emphasis">Read More.</a>
                                                 </div>
-
                                             </div>
                                         </div>
                                         <!-- </router-link> -->
@@ -328,67 +325,112 @@
                                     <div class="row no-gutters m-5">
                                         <h4 class="title-bt fw-bolder fs-1">Event</h4>
                                         <div class="overflow-auto" style="height: 770px;">
-                                            <a href="#">
-                                                <h4 class="text-start text-primary">Maritime Academy of Asia and the
-                                                    Pacific
-                                                    (MAAP)
-                                                    and Kongsberg Digital signs
-                                                    key simulation contract</h4>
-                                            </a>
-                                            <p class="text-start">VADM Eduardo Ma R Santos, MAAP President together with
-                                                Engr. Gerardo Ramon S.
-                                                Galang, MIITD Director attended the Kongsberg Digital Maritime Simulation
-                                                User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
-                                            <a href="#">
-                                                <h4 class="text-start text-primary">Maritime Academy of Asia and the Pacific
-                                                    (MAAP)
-                                                    and Kongsberg Digital signs
-                                                    key simulation contract</h4>
-                                            </a>
-                                            <p class="text-start">VADM Eduardo Ma R Santos, MAAP President together with
-                                                Engr. Gerardo Ramon S.
-                                                Galang, MIITD Director attended the Kongsberg Digital Maritime Simulation
-                                                User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
-                                            <a href="#">
-                                                <h4 class="text-start text-primary">Maritime Academy of Asia and the Pacific
-                                                    (MAAP)
-                                                    and Kongsberg Digital signs
-                                                    key simulation contract</h4>
-                                            </a>
-                                            <p class="text-start">VADM Eduardo Ma R Santos, MAAP President together with
-                                                Engr. Gerardo Ramon S.
-                                                Galang, MIITD Director attended the Kongsberg Digital Maritime Simulation
-                                                User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
-                                            <a href="#">
-                                                <h4 class="text-start text-primary">Maritime Academy of Asia and the Pacific
-                                                    (MAAP)
-                                                    and Kongsberg Digital signs
-                                                    key simulation contract</h4>
-                                            </a>
-                                            <p class="text-start">VADM Eduardo Ma R Santos, MAAP President together with
-                                                Engr. Gerardo Ramon S.
-                                                Galang, MIITD Director attended the Kongsberg Digital Maritime Simulation
-                                                User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
-                                            <a href="#">
-                                                <h4 class="text-start text-primary">Maritime Academy of Asia and the Pacific
-                                                    (MAAP)
-                                                    and Kongsberg Digital signs
-                                                    key simulation contract</h4>
-                                            </a>
-                                            <p class="text-start">VADM Eduardo Ma R Santos, MAAP President together with
-                                                Engr. Gerardo Ramon S.
-                                                Galang, MIITD Director attended the Kongsberg Digital Maritime Simulation
-                                                User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
-                                            <a href="#">
-                                                <h4 class="text-start text-primary">Maritime Academy of Asia and the Pacific
-                                                    (MAAP)
-                                                    and Kongsberg Digital signs
-                                                    key simulation contract</h4>
-                                            </a>
-                                            <p class="text-start">VADM Eduardo Ma R Santos, MAAP President together with
-                                                Engr. Gerardo Ramon S.
-                                                Galang, MIITD Director attended the Kongsberg Digital Maritime Simulation
-                                                User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
+                                            <div class="alert alert-left alert-primary">
+                                                <a href="#">
+                                                    <h4 class="text-start text-primary">Maritime Academy of Asia and the
+                                                        Pacific
+                                                        (MAAP)
+                                                        and Kongsberg Digital signs
+                                                        key simulation contract</h4>
+                                                </a>
+                                                <p class="text-start text-black">VADM Eduardo Ma R Santos, MAAP President
+                                                    together with
+                                                    Engr. Gerardo Ramon S.
+                                                    Galang, MIITD Director attended the Kongsberg Digital Maritime
+                                                    Simulation
+                                                    User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
+                                            </div>
+                                            <div class="alert alert-left alert-primary">
+                                                <a href="#">
+                                                    <h4 class="text-start text-primary">Maritime Academy of Asia and the
+                                                        Pacific
+                                                        (MAAP)
+                                                        and Kongsberg Digital signs
+                                                        key simulation contract</h4>
+                                                </a>
+                                                <p class="text-start text-black">VADM Eduardo Ma R Santos, MAAP President
+                                                    together with
+                                                    Engr. Gerardo Ramon S.
+                                                    Galang, MIITD Director attended the Kongsberg Digital Maritime
+                                                    Simulation
+                                                    User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
+                                            </div>
+                                            <div class="alert alert-left alert-primary">
+                                                <a href="#">
+                                                    <h4 class="text-start text-primary">Maritime Academy of Asia and the
+                                                        Pacific
+                                                        (MAAP)
+                                                        and Kongsberg Digital signs
+                                                        key simulation contract</h4>
+                                                </a>
+                                                <p class="text-start text-black">VADM Eduardo Ma R Santos, MAAP President
+                                                    together with
+                                                    Engr. Gerardo Ramon S.
+                                                    Galang, MIITD Director attended the Kongsberg Digital Maritime
+                                                    Simulation
+                                                    User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
+                                            </div>
+                                            <div class="alert alert-left alert-primary">
+                                                <a href="#">
+                                                    <h4 class="text-start text-primary">Maritime Academy of Asia and the
+                                                        Pacific
+                                                        (MAAP)
+                                                        and Kongsberg Digital signs
+                                                        key simulation contract</h4>
+                                                </a>
+                                                <p class="text-start text-black">VADM Eduardo Ma R Santos, MAAP President
+                                                    together with
+                                                    Engr. Gerardo Ramon S.
+                                                    Galang, MIITD Director attended the Kongsberg Digital Maritime
+                                                    Simulation
+                                                    User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
+                                            </div>
+                                            <div class="alert alert-left alert-primary">
+                                                <a href="#">
+                                                    <h4 class="text-start text-primary">Maritime Academy of Asia and the
+                                                        Pacific
+                                                        (MAAP)
+                                                        and Kongsberg Digital signs
+                                                        key simulation contract</h4>
+                                                </a>
+                                                <p class="text-start text-black">VADM Eduardo Ma R Santos, MAAP President
+                                                    together with
+                                                    Engr. Gerardo Ramon S.
+                                                    Galang, MIITD Director attended the Kongsberg Digital Maritime
+                                                    Simulation
+                                                    User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
+                                            </div>
+                                            <div class="alert alert-left alert-primary">
+                                                <a href="#">
+                                                    <h4 class="text-start text-primary">Maritime Academy of Asia and the
+                                                        Pacific
+                                                        (MAAP)
+                                                        and Kongsberg Digital signs
+                                                        key simulation contract</h4>
+                                                </a>
+                                                <p class="text-start text-black">VADM Eduardo Ma R Santos, MAAP President
+                                                    together with
+                                                    Engr. Gerardo Ramon S.
+                                                    Galang, MIITD Director attended the Kongsberg Digital Maritime
+                                                    Simulation
+                                                    User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
+                                            </div>
+                                            <div class="alert alert-left alert-primary">
+                                                <a href="#">
+                                                    <h4 class="text-start text-primary">Maritime Academy of Asia and the
+                                                        Pacific
+                                                        (MAAP)
+                                                        and Kongsberg Digital signs
+                                                        key simulation contract</h4>
+                                                </a>
+                                                <p class="text-start text-black">VADM Eduardo Ma R Santos, MAAP President
+                                                    together with
+                                                    Engr. Gerardo Ramon S.
+                                                    Galang, MIITD Director attended the Kongsberg Digital Maritime
+                                                    Simulation
+                                                    User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>

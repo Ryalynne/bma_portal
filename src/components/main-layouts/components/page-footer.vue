@@ -27,26 +27,6 @@
                             <span class="brand-text">BMAOfficial</span>
                         </a>
                     </div>
-                    <!-- Grid column
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-5">
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Connected Links
-                        </h6>
-                        <p>
-                            <a href="https://ptc.com.ph/ourjournal-Sea%20Mariners%20welcomes%20Baliwag%20Maritime%20Academy%20as%20its%2010th%20ship.html"
-                                class="text-reset">PTC INC.</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Settings</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Orders</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Help</a>
-                        </p>
-                    </div> -->
-                    <!-- Grid column -->
                     <div class="col-md-4 col-lg-3 col-xl-4 mx-auto mb-md-0 mb-4 mt-5">
                         <!-- Links -->
                         <h6 class="text-uppercase fw-bold mb-4">Contact</h6>

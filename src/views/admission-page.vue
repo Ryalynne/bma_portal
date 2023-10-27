@@ -1,8 +1,14 @@
 <template>
-    <h2 class="text-primary text-center home-title fw-bolder">SCHOOL ADMISSION</h2>
-    <div class="alert alert-left alert-success alert-dismissible fade show mt-5" role="alert">
+      <div class="container">
+        <div class="row">
+                <div class="card card-body mt-3 bg-soft-primary alert alert-left alert-success alert-dismissible">
+                <h2 class="fw-bolder fs-1">Academics</h2>
+                <h2 class="fw-bolder fs-2 mt-1">School Admission</h2>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-left alert-danger alert-dismissible fade show mt-5" role="alert">
         <span class="fw-bolder">REMINDERS TO ALL APPLICANTS:</span>
-
         <p class="mt-3">
             • Applicants with Tattoos are not allowed.
             <br>
@@ -18,26 +24,31 @@
         <div class="card-body">
             <div class="row mt-5 ">
                 <div class="col-md-8">
-                    <h4 class="fw-bolder">SENIOR HIGH SCHOOL ADMISSION REQUIREMENTS</h4>
-                    <ul class="contact-details text-danger">
-                        <li> Grade 10 Report Card with Grades in English, Math,
-                            Science and General Average of 80%</li>
-                        <li>Certificate of Good Moral Conduct</li>
-                        <li>PSA Birth Certificate (not over 19 yrs. Old)</li>
-                        <li>Height Requirements: at least 5'2"</li>
-                    </ul>
-                    <h4 class="fw-bolder">COLLEGE ADMISSION REQUIREMENTS</h4>
-                    <ul class="contact-details text-danger">
-                        <li> Grade 11 & 12 Card with Grades in English, Math,
-                            Science and General Average of 80%
-                        </li>
-                        <li> Certificate of Good Moral Conduct</li>
-                        <li> PSA Birth Certificate (not over 22 yrs. Old)</li>
-                        <li> Barangay Clearance</li>
-                        <li> Height Requirements: at least 5'4"</li>
-                    </ul>
+                    <div class="alert alert-left alert-info alert-dismissible fade show" role="alert">
+                        <h4 class="fw-bolder">SENIOR HIGH SCHOOL ADMISSION REQUIREMENTS</h4>
+                        <ul class="contact-details">
+                            <li> Grade 10 Report Card with Grades in English, Math,
+                                Science and General Average of 80%</li>
+                            <li>Certificate of Good Moral Conduct</li>
+                            <li>PSA Birth Certificate (not over 19 yrs. Old)</li>
+                            <li>Height Requirements: at least 5'2"</li>
+                        </ul>
+                    </div>
+                    <div class="alert alert-left alert-info alert-dismissible fade show" role="alert">
+                        <h4 class="fw-bolder">COLLEGE ADMISSION REQUIREMENTS</h4>
+                        <ul class="contact-details">
+                            <li> Grade 11 & 12 Card with Grades in English, Math,
+                                Science and General Average of 80%
+                            </li>
+                            <li> Certificate of Good Moral Conduct</li>
+                            <li> PSA Birth Certificate (not over 22 yrs. Old)</li>
+                            <li> Barangay Clearance</li>
+                            <li> Height Requirements: at least 5'4"</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-md-4">
+                    <div class="alert alert-left alert-success alert-dismissible fade show" role="alert">
                     <h4 class="fw-bolder">APPLICATION FORM</h4>
                     <div v-if="errors.message" class="alert alert-left alert-danger alert-dismissible fade show mt-5"
                         role="alert">
@@ -111,6 +122,7 @@
                                     REGISTERED</router-link>
                             </div>
                         </form>
+                        </div>
                     </div>
                 </div>
             </div>
