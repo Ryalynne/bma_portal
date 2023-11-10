@@ -1,6 +1,6 @@
 <template>
     <div class="sticky-top">
-        <nav class="nav navbar navbar-expand-lg navbar-light iq-navbar py-lg-0 sticky-top">
+        <nav class="nav navbar navbar-expand-lg navbar-light iq-navbar py-lg-0 ">
             <div class="container-fluid navbar-inner">
                 <router-link :to="{ name: 'app-layout.home' }" class="navbar-brand">
                     <img src="@/assets/resources/image/bma-logo-1.png" alt="image"
@@ -65,9 +65,6 @@
                                 :class="name == 'Registrar' ? 'nav-link active' : 'nav-link'" id="Registrar"
                                 data-title="Registrar" @click="changename('Registrar')">Registrar</router-link></li>
                     </ul>
-                    <!-- <router-link :to="{ name: 'app-layout.admission' }"
-                        :class="name == 'Admission' ? 'nav-link active' : 'nav-link'" id="Admission" data-title="Admission"
-                        @click="changename('Admission')">Admission</router-link> -->
                     <router-link :to="{ name: 'app-layout.Contact' }"
                         :class="name == 'Contact' ? 'nav-link active' : 'nav-link'" id="Contact" data-title="Contact"
                         @click="changename('Contact')">Contact Us</router-link>

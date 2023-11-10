@@ -187,7 +187,6 @@
                                                 <img src="@/assets/resources/banner/BSMT.png" alt="image"
                                                     class="img-fluid height1 radius-our w-100">
                                             </div>
-                                            <!-- <div class="app badge-2 btn btn-sm btn-primary">$2000</div> -->
                                             <div class="app badge-1 btn btn-sm btn-primary">COLLEGE</div>
                                             <div class="app badge-3 ms-3 btn btn-sm text-white btn-info">BSMT</div>
                                         </div>
@@ -206,7 +205,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- </router-link> -->
                                     </div>
                                 </div>
                                 <div class="col">
@@ -234,7 +232,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- </router-link> -->
                                     </div>
                                 </div>
                                 <div class="col">
@@ -430,7 +427,6 @@
                                                     Simulation
                                                     User Conference 2022 held in Horten, Norway last November 9-11, 2022</p>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>

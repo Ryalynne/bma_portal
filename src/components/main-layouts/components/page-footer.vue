@@ -37,24 +37,10 @@
                             registrar@bma.edu.ph
                         </p>
                         <p><i class="fas fa-phone me-3"></i> + (044) 766 1263</p>
-
                     </div>
-                    <!-- Grid column -->
                 </div>
-                <!-- Grid row -->
             </div>
         </section>
-        <!-- Section: Links  -->
-        <!-- Copyright -->
-        <!-- <div class="p-3 bg-soft-primary text-center">
-            <div class="text-center">
-                <a href="https://www.facebook.com/BaliwagMaritimeAcademyOfficial" target="_blank" rel="noopener noreferrer">
-                    <img src="@/assets/images/brands/fb.svg" alt="fb">
-                    <span class="brand-text">BMAOfficial</span>
-                </a>
-            </div>
-        </div> -->
-        <!-- Copyright -->
     </footer>
 </template>
 <script>
@@ -62,4 +48,3 @@ export default {
     name: 'page-footer'
 }
 </script>
-<style></style>
