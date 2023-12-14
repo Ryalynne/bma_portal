@@ -8,6 +8,27 @@
     margin: 0%;
     padding: 0%;
 }
+
+.custom-bullets {
+    padding-left: 20px;
+    /* Space for bullet */
+    text-align: left;
+    color: black;
+}
+
+.custom-bullets li {
+    position: relative;
+    margin-bottom: 10px;
+    /* Adjust as needed */
+}
+
+.custom-bullets li:before {
+    content: "\2022";
+    /* Bullet code */
+    position: absolute;
+    left: -20px;
+    /* Adjust to align the bullet */
+}
 </style>
 <template>
     <div class="container">
@@ -146,33 +167,30 @@
                                     <div class="col-sm">
                                         <h3 class="text-info">KNOWLEDGE</h3><br>
                                         <p class="text-black">
-                                        being consistently honest and trustworthy in work even without supervision thus
-                                        gaining
-                                        trust and respect of clients and stakeholders with open and transparent decision
-                                        making
-                                        processes.</p>
+                                            being consistently honest and trustworthy in work even without supervision thus
+                                            gaining
+                                            trust and respect of clients and stakeholders with open and transparent decision
+                                            making
+                                            processes.</p>
                                     </div>
                                     <div class="col-sm">
                                         <h3 class="text-danger">DISCIPLINE</h3><br>
                                         <p class="text-black">
-                                        ability to motivate oneself regardless emotional state leading towards hard work
-                                        and
-                                        persistence to get ones' job done.</p>
+                                            ability to motivate oneself regardless emotional state leading towards hard work
+                                            and
+                                            persistence to get ones' job done.</p>
                                     </div>
                                     <div class="col-sm">
                                         <h3 class="text-warning">EXCELLENCE</h3><br>
                                         <p class="text-black">
-                                        Striving for the highest personal and institutional achievement in all aspects
-                                        of
-                                        work,
-                                        individual and community action and life-long learning.</p>
+                                            Striving for the highest personal and institutional achievement in all aspects
+                                            of
+                                            work,
+                                            individual and community action and life-long learning.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-12 mt-5">
-                                <hr>
-                                <h4 class="title-bt fw-bolder fs-1">More Info</h4>
-                            </div>
+                            <hr>
                             <div class="header-title d-flex justify-content-between">
                                 <h4 class="fw-bolder fs-1 ">Our Programs</h4>
                             </div>
@@ -269,13 +287,14 @@
                                 graduates are well-prepared to excel in the dynamic maritime sector.
                             </p>
                             <hr>
-                            <h2 class="mt-3 title-bt fw-bolder fs-1">State of the Art Facilities</h2>
-                            <p class="text-black">We provide access to modern facilities and cutting-edge resources that
-                                facilitate effective
-                                learning and practicaltraining. Our campus offer advanced simulation labs. full-equipped
-                                workshops, and comprehensive libraries to support our students' academic endeavors.</p>
+                            <div class="text-center">
+                                <h2 class="fw-bolder fs-1">State of the Art Facilities</h2>
+                                <p class="text-black">We provide access to modern facilities and cutting-edge resources that
+                                    facilitate effective
+                                    learning and practicaltraining. Our campus offer advanced simulation labs. full-equipped
+                                    workshops, and comprehensive libraries to support our students' academic endeavors.</p>
                                 <hr>
-                            <!-- <div class="col-md-6 col-lg-6">
+                                <!-- <div class="col-md-6 col-lg-6">
                                 <div class="card mb-2">
                                     <div class="row no-gutters">
                                         <div class="col-md-6 col-lg-4 mt-3">
@@ -319,28 +338,43 @@
                                     </div>
                                 </div>
                             </div> -->
-                            <h4 class="fw-bolder fs-1 ">Experienced Faculty</h4>
-                            <p class="text-black">Our faculty comprises experienced industry professionals and dedicated educators committed to
-                                delivering
-                                high-quality education. They mentor and guide students, forstering an environment of
-                                academic excellence and professional growth.
-                            </p>
+                                <h4 class="fw-bolder fs-1 ">Experienced Faculty</h4>
+                                <p class="text-black">Our faculty comprises experienced industry professionals and dedicated
+                                    educators committed to
+                                    delivering
+                                    high-quality education. They mentor and guide students, forstering an environment of
+                                    academic excellence and professional growth.
+                                </p>
+                                <hr>
+                                <h4 class="fw-bolder fs-1 ">Career Opportunities</h4>
+                                <p class="text-black">Upon Graduation, our students are wel-positioned to embark on
+                                    rewarding careers in the maritime industry.
+                                    We provide career guidance and support, connecting our graduates with promising
+                                    employment opportunities worldwide.
+                                </p>
+                                <hr>
+                                <h4 class="fw-bolder fs-1 ">Why Choose Baliwag Maritime Academy?</h4>
+                            </div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-6">
+                                        <ul class="list-unstyled custom-bullets">
+                                            <li>Accredited programs ensuring quality education</li>
+                                            <li>Strong industry partnerships and networking opportunities</li>
+                                            <li>Holistic approach to student development</li>
+                                            <li>Commitment to safety, innovation, and sustainability in maritime practices
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                             <hr>
-                            <h4 class="fw-bolder fs-1 ">Career Opportunities</h4>
-                            <p class="text-black">Upon Graduation, our students are wel-positioned to embark on rewarding careers in the maritime industry.
-                                 We provide career guidance and support, connecting our graduates with promising employment opportunities worldwide.
+                            <h4 class="fw-bolder fs-1 ">Get in Touch</h4>
+                            <p class="text-black">
+                                Ready to begin your journey toward a fulfilling maritime career? Contact us to learn more
+                                about our programs, admission process, and campus life. We look forward to welcoming you to
+                                the Baliwag Maritime Academy family!
                             </p>
-                            <hr>
-                            <div class="text-start">
-                            <h4 class="fw-bolder fs-1 ">Why Choose Baliwag Maritime Academy?</h4>
-                            <div class="text-black">
-                            <ul>
-                                <li>Accredited programs ensuring quality education</li>
-                                <li>Strong industry partnerships and networking opportunities</li>
-                                <li>Holistic approach to student development</li>
-                                <li>Commitment to safety, innovation. and sustainability in maritime practices</li>
-                            </ul></div>
-                        </div>
                             <hr>
                             <div class="col-md-6 col-lg-6 mt-5">
                                 <div class="card mb-2">
