@@ -31,8 +31,25 @@
 }
 </style>
 <template>
+    <div class="position-relative">
+        <img src="@/assets/resources/banner/DSC07326.png" class="img-fluid" alt="#" width="100%">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-soft-primary"></div>
+        <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+            <h1 class="mb-1 fw-bold text-white display-4" id="hero-title">
+                CHARTING SUCCESS SHAPING MARITIME PROFESSIONAL TO EXCELLENCE
+            </h1>
+            <p class="text-lg mt-2 text-white">Reach your maritime dream right now. 🚢</p>
+            <button class="text-white bg-primary p-2 w-35 border border-primary rounded-start rounded-end">Inquire Now! <svg width="18" viewBox="0 0 24 24"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="11.7669" cy="11.7666" r="8.98856" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round"></circle>
+                    <path d="M18.0186 18.4851L21.5426 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </svg></button>
+        </div>
+    </div>
     <div class="container">
-        <div class="col-lg-12 imagepadding">
+        <!-- <div class="col-lg-12 imagepadding">
             <div class="row  justify-content-center align-items-center banner-container mt-3 rounded ">
                 <div class="col-lg-7 banner-item order-lg-first order-last mt-lg-0">
                     <div class="banner-text">
@@ -102,15 +119,14 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="editors position-relative">
             <div class="container" data-iq-gsap="onStart" data-iq-position-y="70" data-iq-rotate="0"
                 data-iq-trigger="scroll" data-iq-ease="power.out" data-iq-opacity="0">
                 <div class="row">
                     <section class="editors  mar-bot">
-                        <hr>
                         <div class="card text-center mt-5 ">
-                            <h4 class="fw-bolder fs-1 text-primary">Welcome to Baliwag Maritime Academy</h4>
+                            <h4 class="fw-bolder fs-1 text-primary mb-2 mt-1">WELCOME TO THE BALIWAG MARITIME ACADEMY</h4>
                             <p class="m-3 text-black">At Baliwag Maritime Academy. we are dedicated to nurturing the next
                                 generation of maritime proffessionals through comprehensive education and practical
                                 training. As one of the leading institution in the maritime industry, we take pride in
@@ -162,10 +178,10 @@
                         <hr>
                         <div class="row text-center">
                             <div class="card">
-                                <h2 class="mt-3 title-bt fw-bolder fs-1">Core Values</h2>
+                                <h2 class="mt-3 title-bt fw-bolder fs-1">CORE VALUES</h2>
                                 <div class="row">
                                     <div class="col-sm">
-                                        <h3 class="text-info">KNOWLEDGE</h3><br>
+                                        <h3 class="text-info fw-bolder">KNOWLEDGE</h3><br>
                                         <p class="text-black">
                                             being consistently honest and trustworthy in work even without supervision thus
                                             gaining
@@ -174,14 +190,14 @@
                                             processes.</p>
                                     </div>
                                     <div class="col-sm">
-                                        <h3 class="text-danger">DISCIPLINE</h3><br>
+                                        <h3 class="text-danger fw-bolder">DISCIPLINE</h3><br>
                                         <p class="text-black">
                                             ability to motivate oneself regardless emotional state leading towards hard work
                                             and
                                             persistence to get ones' job done.</p>
                                     </div>
                                     <div class="col-sm">
-                                        <h3 class="text-warning">EXCELLENCE</h3><br>
+                                        <h3 class="text-warning fw-bolder">EXCELLENCE</h3><br>
                                         <p class="text-black">
                                             Striving for the highest personal and institutional achievement in all aspects
                                             of
@@ -192,7 +208,7 @@
                             </div>
                             <hr>
                             <div class="header-title d-flex justify-content-between">
-                                <h4 class="fw-bolder fs-1 ">Our Programs</h4>
+                                <h4 class="fw-bolder fs-1 ">OUR PROGRAMS</h4>
                             </div>
                             <div class="text-start text-black">
                                 <p>Explore our range of specialize programs tailored to meet the diverse needs of aspiring
@@ -286,15 +302,7 @@
                                 experience, ensuring that our
                                 graduates are well-prepared to excel in the dynamic maritime sector.
                             </p>
-                            <hr>
-                            <div class="text-center">
-                                <h2 class="fw-bolder fs-1">State of the Art Facilities</h2>
-                                <p class="text-black">We provide access to modern facilities and cutting-edge resources that
-                                    facilitate effective
-                                    learning and practicaltraining. Our campus offer advanced simulation labs. full-equipped
-                                    workshops, and comprehensive libraries to support our students' academic endeavors.</p>
-                                <hr>
-                                <!-- <div class="col-md-6 col-lg-6">
+                            <!-- <div class="col-md-6 col-lg-6">
                                 <div class="card mb-2">
                                     <div class="row no-gutters">
                                         <div class="col-md-6 col-lg-4 mt-3">
@@ -338,191 +346,56 @@
                                     </div>
                                 </div>
                             </div> -->
-                                <h4 class="fw-bolder fs-1 ">Experienced Faculty</h4>
-                                <p class="text-black">Our faculty comprises experienced industry professionals and dedicated
-                                    educators committed to
-                                    delivering
-                                    high-quality education. They mentor and guide students, forstering an environment of
-                                    academic excellence and professional growth.
-                                </p>
-                                <hr>
-                                <h4 class="fw-bolder fs-1 ">Career Opportunities</h4>
-                                <p class="text-black">Upon Graduation, our students are wel-positioned to embark on
-                                    rewarding careers in the maritime industry.
-                                    We provide career guidance and support, connecting our graduates with promising
-                                    employment opportunities worldwide.
-                                </p>
-                                <hr>
-                                <h4 class="fw-bolder fs-1 ">Why Choose Baliwag Maritime Academy?</h4>
-                            </div>
-                            <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-6">
-                                        <ul class="list-unstyled custom-bullets">
-                                            <li>Accredited programs ensuring quality education</li>
-                                            <li>Strong industry partnerships and networking opportunities</li>
-                                            <li>Holistic approach to student development</li>
-                                            <li>Commitment to safety, innovation, and sustainability in maritime practices
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr>
-                            <h4 class="fw-bolder fs-1 ">Get in Touch</h4>
-                            <p class="text-black">
-                                Ready to begin your journey toward a fulfilling maritime career? Contact us to learn more
-                                about our programs, admission process, and campus life. We look forward to welcoming you to
-                                the Baliwag Maritime Academy family!
-                            </p>
-                            <hr>
-                            <div class="col-md-6 col-lg-6 mt-5">
-                                <div class="card mb-2">
-                                    <div class="row no-gutters m-5">
-                                        <h4 class="title-bt fw-bolder fs-1">News</h4>
-                                        <iframe
-                                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FBaliwagMaritimeAcademyOfficial&tabs=timeline&width=1000&height=800&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                                            height="770" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                                            allowfullscreen="true"
-                                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-                                        </iframe>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-6 mt-5">
-                                <div class="card mb-2">
-                                    <div class="row no-gutters m-5">
-                                        <h4 class="title-bt fw-bolder fs-1">Event</h4>
-                                        <div class="overflow-auto" style="height: 770px;">
-                                            <div class="alert alert-left alert-primary">
-                                                <a href="#">
-                                                    <h4 class="text-start text-primary">Maritime Academy of Asia and the
-                                                        Pacific
-                                                        (MAAP)
-                                                        and Kongsberg Digital signs
-                                                        key simulation contract</h4>
-                                                </a>
-                                                <p class="text-start text-black">VADM Eduardo Ma R Santos, MAAP
-                                                    President
-                                                    together with
-                                                    Engr. Gerardo Ramon S.
-                                                    Galang, MIITD Director attended the Kongsberg Digital Maritime
-                                                    Simulation
-                                                    User Conference 2022 held in Horten, Norway last November 9-11, 2022
-                                                </p>
-                                            </div>
-                                            <div class="alert alert-left alert-primary">
-                                                <a href="#">
-                                                    <h4 class="text-start text-primary">Maritime Academy of Asia and the
-                                                        Pacific
-                                                        (MAAP)
-                                                        and Kongsberg Digital signs
-                                                        key simulation contract</h4>
-                                                </a>
-                                                <p class="text-start text-black">VADM Eduardo Ma R Santos, MAAP
-                                                    President
-                                                    together with
-                                                    Engr. Gerardo Ramon S.
-                                                    Galang, MIITD Director attended the Kongsberg Digital Maritime
-                                                    Simulation
-                                                    User Conference 2022 held in Horten, Norway last November 9-11, 2022
-                                                </p>
-                                            </div>
-                                            <div class="alert alert-left alert-primary">
-                                                <a href="#">
-                                                    <h4 class="text-start text-primary">Maritime Academy of Asia and the
-                                                        Pacific
-                                                        (MAAP)
-                                                        and Kongsberg Digital signs
-                                                        key simulation contract</h4>
-                                                </a>
-                                                <p class="text-start text-black">VADM Eduardo Ma R Santos, MAAP
-                                                    President
-                                                    together with
-                                                    Engr. Gerardo Ramon S.
-                                                    Galang, MIITD Director attended the Kongsberg Digital Maritime
-                                                    Simulation
-                                                    User Conference 2022 held in Horten, Norway last November 9-11, 2022
-                                                </p>
-                                            </div>
-                                            <div class="alert alert-left alert-primary">
-                                                <a href="#">
-                                                    <h4 class="text-start text-primary">Maritime Academy of Asia and the
-                                                        Pacific
-                                                        (MAAP)
-                                                        and Kongsberg Digital signs
-                                                        key simulation contract</h4>
-                                                </a>
-                                                <p class="text-start text-black">VADM Eduardo Ma R Santos, MAAP
-                                                    President
-                                                    together with
-                                                    Engr. Gerardo Ramon S.
-                                                    Galang, MIITD Director attended the Kongsberg Digital Maritime
-                                                    Simulation
-                                                    User Conference 2022 held in Horten, Norway last November 9-11, 2022
-                                                </p>
-                                            </div>
-                                            <div class="alert alert-left alert-primary">
-                                                <a href="#">
-                                                    <h4 class="text-start text-primary">Maritime Academy of Asia and the
-                                                        Pacific
-                                                        (MAAP)
-                                                        and Kongsberg Digital signs
-                                                        key simulation contract</h4>
-                                                </a>
-                                                <p class="text-start text-black">VADM Eduardo Ma R Santos, MAAP
-                                                    President
-                                                    together with
-                                                    Engr. Gerardo Ramon S.
-                                                    Galang, MIITD Director attended the Kongsberg Digital Maritime
-                                                    Simulation
-                                                    User Conference 2022 held in Horten, Norway last November 9-11, 2022
-                                                </p>
-                                            </div>
-                                            <div class="alert alert-left alert-primary">
-                                                <a href="#">
-                                                    <h4 class="text-start text-primary">Maritime Academy of Asia and the
-                                                        Pacific
-                                                        (MAAP)
-                                                        and Kongsberg Digital signs
-                                                        key simulation contract</h4>
-                                                </a>
-                                                <p class="text-start text-black">VADM Eduardo Ma R Santos, MAAP
-                                                    President
-                                                    together with
-                                                    Engr. Gerardo Ramon S.
-                                                    Galang, MIITD Director attended the Kongsberg Digital Maritime
-                                                    Simulation
-                                                    User Conference 2022 held in Horten, Norway last November 9-11, 2022
-                                                </p>
-                                            </div>
-                                            <div class="alert alert-left alert-primary">
-                                                <a href="#">
-                                                    <h4 class="text-start text-primary">Maritime Academy of Asia and the
-                                                        Pacific
-                                                        (MAAP)
-                                                        and Kongsberg Digital signs
-                                                        key simulation contract</h4>
-                                                </a>
-                                                <p class="text-start text-black">VADM Eduardo Ma R Santos, MAAP
-                                                    President
-                                                    together with
-                                                    Engr. Gerardo Ramon S.
-                                                    Galang, MIITD Director attended the Kongsberg Digital Maritime
-                                                    Simulation
-                                                    User Conference 2022 held in Horten, Norway last November 9-11, 2022
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </section>
                 </div>
             </div>
         </div>
     </div>
+    <hr>
+    <div class="text-center">
+        <h2 class="fw-bolder fs-1">STATE OF THE ART FACILITIES</h2>
+        <p class="text-black">We provide access to modern facilities and cutting-edge resources that
+            facilitate effective
+            learning and practicaltraining. Our campus offer advanced simulation labs. full-equipped
+            workshops, and comprehensive libraries to support our students' academic endeavors.</p>
+        <hr>
+        <h4 class="fw-bolder fs-1 ">EXPERIENCED FACULTY</h4>
+        <p class="text-black">Our faculty comprises experienced industry professionals and dedicated
+            educators committed to
+            delivering
+            high-quality education. They mentor and guide students, forstering an environment of
+            academic excellence and professional growth.
+        </p>
+        <hr>
+        <h4 class="fw-bolder fs-1 ">CAREER OPPORTUNITIES</h4>
+        <p class="text-black">Upon Graduation, our students are wel-positioned to embark on
+            rewarding careers in the maritime industry.
+            We provide career guidance and support, connecting our graduates with promising
+            employment opportunities worldwide.
+        </p>
+        <hr>
+        <h4 class="fw-bolder fs-1 ">WHY CHOOSE BALIWAG MARITIME ACADEMY?</h4>
+        <div class="row justify-content-center mt-1">
+            <div class="col-6">
+                <ul class="list-unstyled custom-bullets">
+                    <li>Accredited programs ensuring quality education</li>
+                    <li>Strong industry partnerships and networking opportunities</li>
+                    <li>Holistic approach to student development</li>
+                    <li>Commitment to safety, innovation, and sustainability in maritime practices
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <h4 class="mt-6 fw-bolder fs-1">GET IN TOUCH</h4>
+        <p class="text-black">
+            Ready to begin your journey toward a fulfilling maritime career? Contact us to learn more
+            about our programs, admission process, and campus life. We look forward to welcoming you to
+            the Baliwag Maritime Academy family!
+        </p>
+    </div>
+    <hr>
 </template>
 <script>
 export default {

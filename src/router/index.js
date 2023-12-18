@@ -54,34 +54,16 @@ const defaultchildRoutes = (prop) => [
     component: () => import('../views/Bsmt.vue')
   },
   {
+    path: '/news-event',
+    name: prop + '.news-event',
+    meta: { auth: false, name: 'news-event', user: 'guest' },
+    component: () => import('../views/NewsEvents-page.vue')
+  },
+  {
     path: '/Shs',
     name: prop + '.Shs',
     meta: { auth: false, name: 'Shs', user: 'guest' },
     component: () => import('../views/Shs.vue')
-  },
-  {
-    path: '/Contact',
-    name: prop + '.Contact',
-    meta: { auth: false, name: 'Contact', user: 'guest' },
-    component: () => import('../views/Contact-page.vue')
-  },
-  {
-    path: '/Facilities',
-    name: prop + '.Facilities',
-    meta: { auth: false, name: 'Facilities', user: 'guest' },
-    component: () => import('../views/facilities-page.vue')
-  },
-  {
-    path: '/Registrar',
-    name: prop + '.Registrar',
-    meta: { auth: false, name: 'Registrar', user: 'guest' },
-    component: () => import('../views/Registrar-page.vue')
-  },
-  {
-    path: '/GraduateSchool',
-    name: prop + '.GraduateSchool',
-    meta: { auth: false, name: 'GraduateSchool', user: 'guest' },
-    component: () => import('../views/GraduateSchool-page.vue')
   }
 ]
 const authRoute = (prop) => [

@@ -19,7 +19,6 @@
                             all liability for, damages of any kind arising out of use, reference to, or reliance on any
                             information contained within the site.
                         </p>
-                        <p>Copyright © BALIWAG MARITIME ACADEMY, INC.</p>
                         <h6 class="text-uppercase fw-bold mb-2">Follow Us ON</h6>
                         <a href="https://www.facebook.com/BaliwagMaritimeAcademyOfficial" target="_blank"
                             rel="noopener noreferrer">
@@ -41,6 +40,7 @@
                 </div>
             </div>
         </section>
+        <p style="margin-left: 1%;" class="fw-bold">Copyright © BALIWAG MARITIME ACADEMY, INC.</p>
     </footer>
 </template>
 <script>

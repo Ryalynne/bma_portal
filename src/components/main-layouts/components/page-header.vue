@@ -42,33 +42,30 @@
             <nav class="nav nav-underline bg-soft-primary pb-0" aria-label="Secondary navigation">
                 <div class="d-flex" id="head-check">
                     <router-link :to="{ name: 'app-layout.home' }" :class="name == 'Home' ? 'nav-link active' : 'nav-link'"
-                        id="Home" data-title="Home" @click="changename('Home')">About Us</router-link>
-                    <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false"
-                        aria-expanded="true">
-                        Academics
-                    </a>
-                    <ul class="dropdown-menu " data-popper-placement="bottom-start">
-                        <!-- item-->
+                        id="Home" data-title="Home" @click="changename('Home')">Achievement</router-link>
+                    <router-link :to="{ name: 'app-layout.news-event' }"
+                        :class="name == 'news-event' ? 'nav-link active' : 'nav-link'" id="news-event"
+                        data-title="news-event" @click="changename('news-event')">News and Events</router-link>
+                    <router-link :to="{ name: 'app-layout.admission' }" :class="name == 'admission' ? 'nav-link active' : 'nav-link'"
+                        id="admission" data-title="admission" @click="changename('admission')">Admission Scholarship</router-link>
+                    <router-link :to="{ name: 'app-layout.admission' }" :class="name == 'admission' ? 'nav-link active' : 'nav-link'"
+                        id="Home" data-title="Home" @click="changename('Home')">Onboard Training</router-link>
+                    <router-link :to="{ name: 'app-layout.home' }" :class="name == 'Home' ? 'nav-link active' : 'nav-link'"
+                        id="Home" data-title="Home" @click="changename('Home')">Discipline & Drills</router-link>
+                    <router-link :to="{ name: 'app-layout.home' }" :class="name == 'Home' ? 'nav-link active' : 'nav-link'"
+                        id="Home" data-title="Home" @click="changename('Home')">Research</router-link>
+                </div>
+                <!-- <ul class="dropdown-menu " data-popper-placement="bottom-start">
                         <li> <router-link :to="{ name: 'app-layout.Facilities' }"
                                 :class="name == 'Facilities' ? 'nav-link active' : 'nav-link'" id="Facilities"
                                 data-title="Facilities" @click="changename('Facilities')">Facilities</router-link></li>
                         <li><router-link :to="{ name: 'app-layout.admission' }"
                                 :class="name == 'Admission' ? 'nav-link active' : 'nav-link'" id="Admission"
-                                data-title="Admission" @click="changename('Admission')">Admission</router-link></li>
-
-                        <li><router-link :to="{ name: 'app-layout.GraduateSchool' }"
-                                :class="name == 'GraduateSchool' ? 'nav-link active' : 'nav-link'" id="GraduateSchool"
-                                data-title="GraduateSchool" @click="changename('GraduateSchool')">Graduate
-                                School</router-link></li>
-                        <hr>
-                        <li><router-link :to="{ name: 'app-layout.Registrar' }"
-                                :class="name == 'Registrar' ? 'nav-link active' : 'nav-link'" id="Registrar"
-                                data-title="Registrar" @click="changename('Registrar')">Registrar</router-link></li>
+                                data-title="Admission" @click="changename('Admission')">Admission Scholarship</router-link></li>
                     </ul>
                     <router-link :to="{ name: 'app-layout.Contact' }"
                         :class="name == 'Contact' ? 'nav-link active' : 'nav-link'" id="Contact" data-title="Contact"
-                        @click="changename('Contact')">Contact Us</router-link>
-                </div>
+                        @click="changename('Contact')">Contact Us</router-link> -->
             </nav>
         </div>
     </div>

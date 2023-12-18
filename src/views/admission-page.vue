@@ -1,29 +1,28 @@
 <template>
-      <div class="container">
-        <div class="row">
-                <div class="card card-body mt-3 bg-soft-primary alert alert-left alert-success alert-dismissible">
-                <h2 class="fw-bolder fs-1">Academics</h2>
-                <h2 class="fw-bolder fs-2 mt-1">School Admission</h2>
-            </div>
-        </div>
-    </div>
-    <div class="alert alert-left alert-danger alert-dismissible fade show mt-5" role="alert">
-        <span class="fw-bolder">REMINDERS TO ALL APPLICANTS:</span>
-        <p class="mt-3">
-            • Applicants with Tattoos are not allowed.
-            <br>
-            • All application documents submitted online that met the pre-qualifying requirements shall be allowed to
-            take
-            the entrance examination but will be subjected for further verification to prove its authenticity validity.
-            Application documents that are proven fraudulent after verification shall be invalidated and will not be
-            allowed
-            to enroll in the Academy.
-        </p>
-    </div>
     <div class="card">
         <div class="card-body">
             <div class="row mt-5 ">
                 <div class="col-md-8">
+                    <!-- <div class="card card-body mt-3 bg-soft-primary alert alert-left alert-success alert-dismissible">
+                        <h2 class="fw-bolder fs-1">Academics</h2>
+                        <h2 class="fw-bolder fs-2 mt-1">School Admission</h2>
+                    </div> -->
+                    <div class="alert alert-left alert-danger alert-dismissible fade show mt-5" role="alert">
+                        <span class="fw-bolder">REMINDERS TO ALL APPLICANTS:</span>
+                        <p class="mt-3">
+                            • Applicants with Tattoos are not allowed.
+                            <br>
+                            • All application documents submitted online that met the pre-qualifying requirements shall be
+                            allowed to
+                            take
+                            the entrance examination but will be subjected for further verification to prove its
+                            authenticity validity.
+                            Application documents that are proven fraudulent after verification shall be invalidated and
+                            will not be
+                            allowed
+                            to enroll in the Academy.
+                        </p>
+                    </div>
                     <div class="alert alert-left alert-info alert-dismissible fade show" role="alert">
                         <h4 class="fw-bolder">SENIOR HIGH SCHOOL ADMISSION REQUIREMENTS</h4>
                         <ul class="contact-details">
@@ -49,79 +48,81 @@
                 </div>
                 <div class="col-md-4">
                     <div class="alert alert-left alert-success alert-dismissible fade show" role="alert">
-                    <h4 class="fw-bolder">APPLICATION FORM</h4>
-                    <div v-if="errors.message" class="alert alert-left alert-danger alert-dismissible fade show mt-5"
-                        role="alert">
-                        <span class="fw-bolder">REGISTRATION FAILED:</span>
-                        <p class="mt-3">
-                            {{ errors.message }}
-                        </p>
-                    </div>
-                    <div v-if="networkError.code" class="alert alert-left alert-danger alert-dismissible fade show mt-5"
-                        role="alert">
-                        <span class="fw-bolder">{{ networkError.code }}</span>
-                        <p class="mt-3">
-                            {{ networkError.message }}
-                        </p>
-                    </div>
-                    <div class="contact-form mt-3">
-                        <form @submit.prevent="applicantRegister" method="post">
-                            <div class="col-md-12">
-                                <input-component label="First Name" v-model:value="formData.firstName"
-                                    :error="errors.firstName" />
-                            </div>
-                            <div class="col-md-12">
-                                <input-component label="last Name" v-model:value="formData.lastName"
-                                    :error="errors.lastName" />
-                            </div>
-                            <div class="col-md-12">
-                                <input-component label="email" v-model:value="formData.email" :error="errors.email" />
-                            </div>
-                            <div class="col-md-12">
-                                <input-component-v2 type="date" label="birthday" v-model:value="formData.birthday"
-                                    :error="errors.birthday" />
-                            </div>
-                            <div class="col-md-12">
-                                <input-component label="Contact number" v-model:value="formData.contactNumber"
-                                    :error="errors.contactNumber" />
-                            </div>
-                            <div class="col-md-12 position-relative">
-                                <small for="validationTooltip04" class="form-label fw-bolder">COURSE <sup
-                                        class="text-danger fw-bolder">*</sup></small>
-                                <select class="form-select form-select-sm border border-primary" v-model="formData.course">
-                                    <option selected="" disabled="" value="">Choose...</option>
-                                    <option value="1">BS MARINE ENGINEERING - COLLEGE</option>
-                                    <option value="2">BS MARINE TRANSPORTATION - COLLEGE</option>
-                                    <option value="3">PRE-BACCALAUREATE - SENIOR HIGHSCHOOL</option>
-
-                                </select>
-                                <span class="badge bg-danger mt-2" v-if="errors.course">{{
-                                    errors.course[0] }}</span>
-                            </div>
-
-                            <div class="col-12">
-                                <div class="form-check mt-2">
-                                    <input class="form-check-input" type="checkbox" v-model="formData.agreement"
-                                        id="invalidCheck">
-                                    <label class="form-check-label" for="invalidCheck">
-                                        Agree to terms and conditions
-                                    </label>
-                                    <span class="badge bg-danger mt-2" v-if="errors.agreement">{{
-                                        errors.agreement[0] }}</span>
-                                    <label class="text-primary mt-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        Read terms and conditions
-                                    </label>
+                        <h4 class="fw-bolder">APPLICATION FORM</h4>
+                        <div v-if="errors.message" class="alert alert-left alert-danger alert-dismissible fade show mt-5"
+                            role="alert">
+                            <span class="fw-bolder">REGISTRATION FAILED:</span>
+                            <p class="mt-3">
+                                {{ errors.message }}
+                            </p>
+                        </div>
+                        <div v-if="networkError.code" class="alert alert-left alert-danger alert-dismissible fade show mt-5"
+                            role="alert">
+                            <span class="fw-bolder">{{ networkError.code }}</span>
+                            <p class="mt-3">
+                                {{ networkError.message }}
+                            </p>
+                        </div>
+                        <div class="contact-form mt-3">
+                            <form @submit.prevent="applicantRegister" method="post">
+                                <div class="col-md-12">
+                                    <input-component label="First Name" v-model:value="formData.firstName"
+                                        :error="errors.firstName" />
                                 </div>
-                            </div>
-                            <!--    <vue-recaptcha ref="recaptcha" sitekey="6Lch4wckAAAAAIv3KzDuN0M82UOeWJLWa7L_2Zva" /> -->
-                            <div class="col-12">
-                                <button class="btn btn-primary rounded w-100 mb-5" type="submit">APPLY
-                                    NOW</button>
-                                <router-link :to="{ name: 'app-layout.applicant-login' }"
-                                    class="btn btn-info text-white w-100">ALREADY
-                                    REGISTERED</router-link>
-                            </div>
-                        </form>
+                                <div class="col-md-12">
+                                    <input-component label="last Name" v-model:value="formData.lastName"
+                                        :error="errors.lastName" />
+                                </div>
+                                <div class="col-md-12">
+                                    <input-component label="email" v-model:value="formData.email" :error="errors.email" />
+                                </div>
+                                <div class="col-md-12">
+                                    <input-component-v2 type="date" label="birthday" v-model:value="formData.birthday"
+                                        :error="errors.birthday" />
+                                </div>
+                                <div class="col-md-12">
+                                    <input-component label="Contact number" v-model:value="formData.contactNumber"
+                                        :error="errors.contactNumber" />
+                                </div>
+                                <div class="col-md-12 position-relative">
+                                    <small for="validationTooltip04" class="form-label fw-bolder">COURSE <sup
+                                            class="text-danger fw-bolder">*</sup></small>
+                                    <select class="form-select form-select-sm border border-primary"
+                                        v-model="formData.course">
+                                        <option selected="" disabled="" value="">Choose...</option>
+                                        <option value="1">BS MARINE ENGINEERING - COLLEGE</option>
+                                        <option value="2">BS MARINE TRANSPORTATION - COLLEGE</option>
+                                        <option value="3">PRE-BACCALAUREATE - SENIOR HIGHSCHOOL</option>
+
+                                    </select>
+                                    <span class="badge bg-danger mt-2" v-if="errors.course">{{
+                                        errors.course[0] }}</span>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-check mt-2">
+                                        <input class="form-check-input" type="checkbox" v-model="formData.agreement"
+                                            id="invalidCheck">
+                                        <label class="form-check-label" for="invalidCheck">
+                                            Agree to terms and conditions
+                                        </label>
+                                        <span class="badge bg-danger mt-2" v-if="errors.agreement">{{
+                                            errors.agreement[0] }}</span>
+                                        <label class="text-primary mt-1" data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal">
+                                            Read terms and conditions
+                                        </label>
+                                    </div>
+                                </div>
+                                <!--    <vue-recaptcha ref="recaptcha" sitekey="6Lch4wckAAAAAIv3KzDuN0M82UOeWJLWa7L_2Zva" /> -->
+                                <div class="col-12">
+                                    <button class="btn btn-primary rounded w-100 mb-5" type="submit">APPLY
+                                        NOW</button>
+                                    <router-link :to="{ name: 'app-layout.applicant-login' }"
+                                        class="btn btn-info text-white w-100">ALREADY
+                                        REGISTERED</router-link>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
