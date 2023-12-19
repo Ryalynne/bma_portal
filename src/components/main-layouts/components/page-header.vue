@@ -42,6 +42,8 @@
             <nav class="nav nav-underline bg-soft-primary pb-0" aria-label="Secondary navigation">
                 <div class="d-flex" id="head-check">
                     <router-link :to="{ name: 'app-layout.home' }" :class="name == 'Home' ? 'nav-link active' : 'nav-link'"
+                        id="Home" data-title="Home" @click="changename('Home')">About Us</router-link>
+                        <router-link :to="{ name: 'app-layout.home' }" :class="name == 'Home' ? 'nav-link active' : 'nav-link'"
                         id="Home" data-title="Home" @click="changename('Home')">Achievement</router-link>
                     <router-link :to="{ name: 'app-layout.news-event' }"
                         :class="name == 'news-event' ? 'nav-link active' : 'nav-link'" id="news-event"
